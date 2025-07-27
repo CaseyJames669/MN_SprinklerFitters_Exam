@@ -101,3 +101,13 @@ The study material is primarily sourced from the following standards:
 -   NFPA 96, 2024 Edition
 -   Minnesota State Fire Code, 2020
 -   MN Statutes
+
+---
+
+## Future Improvements
+
+-   **Web Interface for Data Exploration**: Create a simple web application to browse, search, and filter the Q&A dataset.
+-   **Automated Data Validation and Cleaning**: Implement a more robust data validation pipeline to automatically detect and flag inconsistencies.
+-   **Expand the Dataset with More Sources**: Incorporate additional fire protection standards, such as those from the International Building Code (IBC).
+-   **Advanced Data Analysis and Insights**: Develop scripts to analyze the dataset for trends and insights.
+-   **Interactive Quiz Feature**: Build a command-line or web-based quiz tool that pulls questions from the dataset and tests the user's knowledge.
