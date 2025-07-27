@@ -1,0 +1,40 @@
+**Question:** How often do you inspect private fire hydrants?
+
+**Answer:** Annually or after each operation
+
+**Source:** NFPA 25 2023 Edition, Section 7.3.1
+
+**Tags:** NFPA 25, General
+---
+**Question:** What is NFPA 13R used for?
+
+**Answer:** Residential occupancies up to and including four stories in height
+
+**Source:** NFPA 13R 2022 Edition, Section 1.1
+
+**Tags:** NFPA 13R, General
+---
+**Question:** What is the coverage area for Ordinary Hazard heads?
+
+**Answer:** 130 square feet
+
+**Source:** NFPA 13 2025 Edition, Table 11.2.3.1.2
+
+**Tags:** NFPA 13, Hazard Classification, Sprinkler Spacing
+---
+**Question:** What is the coverage area for Light Hazard heads?
+
+**Answer:** 225 square feet
+
+**Source:** NFPA 13 2025 Edition, Table 11.2.3.1.2
+
+**Tags:** NFPA 13, Hazard Classification, Sprinkler Spacing
+---
+**Question:** What is the coverage area for Extra Hazard heads?
+
+**Answer:** 100-130 square feet
+
+**Source:** NFPA 13 2025 Edition, Table 11.2.3.1.2
+
+**Tags:** NFPA 13, Hazard Classification, Sprinkler Spacing
+---
