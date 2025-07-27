@@ -46,8 +46,8 @@
   {
     "id": 5,
     "question": "What is the coverage area for Extra Hazard heads?",
-    "answer": "100-130 square feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
+    "answer": "Extra Hazard Group 1: 0.3 gpm/ft² over 2500 sq ft; Extra Hazard Group 2: 0.4 gpm/ft² over 2500 sq ft",
+    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 19.2.3.1.1",
     "tags": [
       "Hazard-Classification",
       "NFPA-13",
@@ -59,7 +59,7 @@
     "id": 6,
     "question": "What is the coverage area for ESFR heads?",
     "answer": "100 square feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.3.2",
+    "source": "General ESFR design principles",
     "tags": [
       "NFPA-13",
       "Sprinklers",
@@ -70,7 +70,7 @@
   {
     "id": 7,
     "question": "What is the coverage area for Storage heads?",
-    "answer": "100 or 130 square feet -(d))",
+    "answer": "100 or 130 square feet",
     "source": "NFPA 13 2025 Edition, Tables 18.1(a",
     "tags": [
       "NFPA-13",
@@ -81,8 +81,8 @@
   {
     "id": 8,
     "question": "Minimum air pressure for a pressure tank?",
-    "answer": "75 psi",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.32.4",
+    "answer": "Typically covered by NFPA 22; some hydropneumatic tanks have a factory pre-charge of 30 psi.",
+    "source": "Authority: NFPA, Document: NFPA 22, Section: Various (related to pressure tanks)",
     "tags": [
       "NFPA-20",
       "Water-Supply"
@@ -92,7 +92,7 @@
     "id": 9,
     "question": "What pipe sizes can feed 1\u00bd\" hose lines and for what length?",
     "answer": "1\" for horizontal runs up to 20'; 1\u00bc\" for 20' to 80'; 1\u00bd\" for runs over 80'",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Table 7.3.1.1",
+    "source": "Source not found as Table 7.3.1.1 in NFPA 14 2022 Edition; information may be distributed across sections.",
     "tags": [
       "NFPA-14",
       "Piping",
@@ -108,7 +108,7 @@
       "High": "Blue",
       "Extra High": "Purple"
     },
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.2.4.1",
+    "source": "Authority: NFPA, Document: NFPA 13 2022 Edition, Section: Table 7.2.4.1",
     "tags": [
       "Hazard-Classification",
       "NFPA-13",
@@ -175,7 +175,7 @@
     "id": 16,
     "question": "Duration of water supply for NFPA 13D systems",
     "answer": "7-10 minutes for one/two-family dwellings",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 6.5.2",
+    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 6.1.3",
     "tags": [
       "NFPA-13D",
       "Water-Supply"
@@ -184,8 +184,8 @@
   {
     "id": 17,
     "question": "Why must a check valve with a 3/32\" hole in the Clapper be installed in the system riser below the test valve in freezer spaces?",
-    "answer": "To prevent evaporation of priming water into system",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.2.3",
+    "answer": "Check valves with drilled clappers (e.g., 3/32\" orifice) are typically used in antifreeze systems to allow for thermal expansion.",
+    "source": "Authority: NFPA, Document: NFPA 13 (various sections related to antifreeze systems)",
     "tags": [
       "NFPA-13",
       "System-Components"
@@ -195,7 +195,7 @@
     "id": 18,
     "question": "Maximum time allowed for water flow alarms to sound",
     "answer": "5 minutes",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.17.1.5",
+    "source": "Authority: NFPA, Document: NFPA 13 2019 Edition, Section: Section 7.7 (also NFPA 72)",
     "tags": [
       "NFPA-13",
       "Water-Supply"
@@ -204,8 +204,8 @@
   {
     "id": 19,
     "question": "What pressure and flow are 1\u00bd\" hose stations designed for?",
-    "answer": "50 gpm at system pressure",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.10.1.2.1",
+    "answer": "Minimum 100 gpm at 65 psi residual pressure (for Class II systems)",
+    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Various (related to Class II systems)",
     "tags": [
       "NFPA-14",
       "Water-Supply"
@@ -214,8 +214,8 @@
   {
     "id": 20,
     "question": "Class III and Class I standpipe systems are designed for what pressures and flows?",
-    "answer": "250 gpm @ 100 psi",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.6",
+    "answer": "Minimum 500 gpm flow at 100 psi residual pressure (for the most hydraulically remote 2 1/2-inch hose connection)",
+    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Various (related to Class I and III standpipe systems)",
     "tags": [
       "NFPA-14",
       "Piping",
@@ -226,7 +226,7 @@
     "id": 21,
     "question": "Class II standpipe systems are designed for what pressures and flows?",
     "answer": "100 gpm @ 65 psi",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.6.2",
+    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.10.2",
     "tags": [
       "NFPA-14",
       "Piping",
@@ -459,7 +459,7 @@
   {
     "id": 42,
     "question": "Hanger spacing for steel pipe",
-    "answer": "1\"/1\u00bc\":12'; 1\u00bd\"-8\":15' )",
+    "answer": "1\"/1\u00bc\":12'; 1\u00bd\"-8\":15'"
     "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
       "NFPA-13",
@@ -472,7 +472,7 @@
   {
     "id": 43,
     "question": "Hanger spacing for threadable lightwall steel pipe 1\" to 3\"",
-    "answer": "12' )",
+    "answer": "12'",
     "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
       "Hazard-Classification",
@@ -486,7 +486,7 @@
   {
     "id": 44,
     "question": "Hanger spacing for copper tube pipe",
-    "answer": "\u00be\"-1\":8'; 1\u00bc\"-1\u00bd\":10'; 2\"-3\":12'; 3.5\"-8\":15' )",
+    "answer": "\u00be\"-1\":8'; 1\u00bc\"-1\u00bd\":10'; 2\"-3\":12'; 3.5\"-8\":15'",
     "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(b",
     "tags": [
       "NFPA-13",
@@ -506,7 +506,7 @@
       "1\u00bd\":7'",
       "2\":8'",
       "2\u00bd\":9'",
-      "3\":10' )"
+      "3\":10'"
     ],
     "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(c",
     "tags": [
@@ -595,11 +595,7 @@
   {
     "id": 53,
     "question": "What is the fine for working in Minnesota without a Minnesota journeyman's license?",
-    "answer": [
-      "Misdemeanor",
-      "up to $1",
-      "000/90 days"
-    ],
+    "answer": "Misdemeanor, with fines up to $10,000 and/or up to 90 days imprisonment.",
     "source": "MN Statutes 609.02 Subd. 3; 299M",
     "tags": [
       "Minnesota-Code"
@@ -754,7 +750,7 @@
   {
     "id": 67,
     "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
-    "answer": "12 feet )",
+    "answer": "12 feet",
     "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
       "NFPA-13",
@@ -799,7 +795,7 @@
   {
     "id": 71,
     "question": "A pump room and valve enclosure must maintain a temperature of what to keep from freezing.",
-    "answer": "40\u00b0F  or above (NFPA 20 2022 Edition, Section 4.32.1)",
+    "answer": "40\u00b0F or above",
     "source": "4\u00b0C",
     "tags": [
       "Fire-Pumps",
@@ -1830,7 +1826,7 @@
   {
     "id": 164,
     "question": "On a 2500 gpm pump or smaller, what size automatic relief valve is required?",
-    "answer": "\u00be\" for pumps 2500 gpm and under and 1\" for larger pumps )",
+    "answer": "\u00be\" for pumps 2500 gpm and under and 1\" for larger pumps",
     "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Table 4.48(a",
     "tags": [
       "Fire-Pumps",
