@@ -7,9 +7,12 @@ A comprehensive, scripted dataset of questions and answers for studying fire pro
 ## Key Features
 
 - **Comprehensive Dataset**: A large collection of Q&A pairs covering critical fire protection topics.
-- **Verified Sources**: Each entry is linked to a specific code section from major NFPA standards and other official sources.
+- **Standardized Sources**: Each entry is linked to a specific code section, with sources formatted as `Authority: [Name], Document: [Title], Section: [Number]`.
 - **Automated Processing**: Python scripts to clean, verify, and enhance the dataset for consistency and accuracy.
 - **Multiple Formats**: Data is available in raw, cleaned, and enhanced JSON, plus text formats optimized for different study platforms.
+- **Unique IDs**: Every Q&A pair has a unique `id` for easy referencing.
+- **Granular Tagging**: A hierarchical tagging system (e.g., `Piping-Materials`, `System-Components`) allows for more precise content filtering.
+- **Structured Answers**: Complex answers with lists or key-value pairs are automatically converted into structured JSON objects for easier programmatic access.
 
 ---
 
@@ -24,8 +27,10 @@ The project revolves around taking a raw JSON dataset and processing it through 
 #### 🗂️ Data Files
 
 -   **`Quizlet Full - Original.json`**: The raw, unprocessed data. Contains potential duplicates and formatting inconsistencies.
--   **`Quizlet Full - Verified.json`**: The cleaned version of the data, with duplicates removed. Ideal for direct import into Quizlet (term/definition format).
--   **`Quizlet Full - Enhanced.json`**: The most advanced dataset. Includes distinct `source` and `tags` fields, with Markdown formatting in the `answer` field for improved readability.
+-   **`Quizlet Full - Original.txt`**: The raw, unprocessed data in plain text format.
+-   **`Quizlet Full - Verified.json`**: The cleaned version of the data, with duplicates removed.
+-   **`Quizlet Full - Enhanced.json`**: The most advanced dataset. Includes a unique `id`, standardized `source`, granular `tags`, and structured `answer` fields.
+-   **`Quizlet Full - FormattedForImport.txt`**: A text version of the data, formatted for direct import into Quizlet.
 -   **`Quizlet Full - NotebookLM.txt`**: A plain text version of the enhanced data, specifically formatted for use as a source in Google's NotebookLM.
 
 #### ⚙️ Python Scripts
@@ -33,11 +38,13 @@ The project revolves around taking a raw JSON dataset and processing it through 
 -   **`process_json.py`**: Reads `Quizlet Full - Original.json`, removes duplicate questions, and saves the result as `Quizlet Full - Verified.json`.
 -   **`enhance_json.py`**: Takes the verified data, adds detailed `tags` and `source` fields to each entry, and applies Markdown formatting. Saves the result as `Quizlet Full - Enhanced.json`.
 -   **`convert_to_notebooklm.py`**: Converts the final enhanced JSON into the `Quizlet Full - NotebookLM.txt` format.
+-   **`format_quizlet.py`**: Formats the verified JSON data into a tab-separated text file (`Quizlet Full - FormattedForImport.txt`) suitable for Quizlet import.
 
 #### 📄 Documentation
 
 -   **`JSON Analysis.md`**: A detailed report on the structure, integrity, and quality of the JSON data, including suggestions for improvement.
 -   **`NotebookLM Mind Map.pdf` / `.png`**: Visual diagram of the project's file structure and data flow.
+-   **`NotebookLM Audio Overview.wav`**: An audio recording providing an overview of the project's integration with Google's NotebookLM.
 
 ---
 
@@ -69,6 +76,12 @@ To regenerate the processed files from the original data, run the scripts in the
     python convert_to_notebooklm.py
     ```
 
+4.  **Format for Quizlet:**
+    This script creates the `Quizlet Full - FormattedForImport.txt` file from the verified data.
+    ```bash
+    python format_quizlet.py
+    ```
+
 ---
 
 ## Data Sources
@@ -88,14 +101,3 @@ The study material is primarily sourced from the following standards:
 -   NFPA 96, 2024 Edition
 -   Minnesota State Fire Code, 2020
 -   MN Statutes
-
----
-
-## Future Improvements
-
-Based on the analysis in `JSON Analysis.md`, the following enhancements could further improve the dataset:
-
--   **Standardize `source` Field**: Adopt a consistent format for non-NFPA sources (e.g., `"Authority: [Name], Document: [Title], Section: [Number]"`).
--   **Refine `tags`**: Implement a more granular tagging system, such as using sub-topics like `Piping-Materials` or `Hangers`.
--   **Structure Complex `answer` Fields**: For answers containing lists or multiple conditions, convert the string into a JSON array or object to improve programmatic access.
--   **Add Unique IDs**: Introduce a unique `id` field for each Q&A object to make referencing easier.
