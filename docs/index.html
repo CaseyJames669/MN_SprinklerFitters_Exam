@@ -13,7 +13,7 @@
 </head>
 <body>
     <audio controls style="width: 100%; padding: 10px 0;">
-        <source src="../grok4.wav" type="audio/wav">
+        <source src="grok4.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
     <div id="mindmap-container"></div>
@@ -34,6 +34,7 @@
                 };
                 const jm = new jsMind(options);
                 jm.show(mind);
+                jm.expand_all(false);
             })
             .catch(error => {
                 console.error('Error loading mind map data:', error);
