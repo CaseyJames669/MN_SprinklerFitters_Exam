@@ -1,2 +1,7 @@
 PyPDF2
 python-dotenv
+pandas
+markdown
+requests
+reportlab
+flask
