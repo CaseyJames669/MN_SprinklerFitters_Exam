@@ -11,8 +11,6 @@ A comprehensive, scripted dataset of questions and answers for studying fire pro
 - New features: PDF study guide, web quiz app, expanded Q&A.
 - Run `python agent.py` to regenerate.
 
-
-
 ## Key Features
 
 - **Comprehensive Dataset**: A large collection of Q&A pairs covering critical fire protection topics.
