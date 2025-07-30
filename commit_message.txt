@@ -1,1 +1,1 @@
-Embed grok4.wav into index.html and add grok4.wav
+Fix jsMind errors: unique IDs and version update, and regenerate mindmap_data.json
