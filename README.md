@@ -4,6 +4,11 @@ A comprehensive, scripted dataset of questions and answers for studying fire pro
 
 ---
 
+## AI-Enhanced Version (July 29, 2025)
+- Used Grok 4 AI agent for 100% accuracy verification against NFPA 2025 and MN Fire Code.
+- New features: PDF study guide, web quiz app, expanded Q&A.
+- Run `python agent.py` to regenerate.
+
 ## Key Features
 
 - **Comprehensive Dataset**: A large collection of Q&A pairs covering critical fire protection topics.
@@ -56,31 +61,13 @@ The project revolves around taking a raw JSON dataset and processing it through 
 
 ### Usage
 
-To regenerate the processed files from the original data, run the scripts in the following order.
+To regenerate all processed files from the original data, simply run the `agent.py` script:
 
-1.  **Clean the original data:**
-    This script creates the `Quizlet Full - Verified.json` file.
-    ```bash
-    python process_json.py
-    ```
+```bash
+python agent.py
+```
 
-2.  **Enhance the cleaned data:**
-    This script uses the verified file to create the `Quizlet Full - Enhanced.json` file.
-    ```bash
-    python enhance_json.py
-    ```
-
-3.  **Convert for NotebookLM:**
-    This script creates the `Quizlet Full - NotebookLM.txt` file from the enhanced data.
-    ```bash
-    python convert_to_notebooklm.py
-    ```
-
-4.  **Format for Quizlet:**
-    This script creates the `Quizlet Full - FormattedForImport.txt` file from the verified data.
-    ```bash
-    python format_quizlet.py
-    ```
+This single command will handle all the processing steps, including deduplication, verification (if an API key is provided), enhancement, and generation of all output files.
 
 ---
 

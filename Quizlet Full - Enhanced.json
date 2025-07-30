@@ -1,3262 +1,2451 @@
 [
   {
-    "id": 1,
     "question": "How often do you inspect private fire hydrants?",
-    "answer": "Annually or after each operation",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 7.3.1",
+    "answer": "Annually or after each operation (NFPA 25 2023 Edition, Section 7.3.1)",
+    "id": 0,
     "tags": [
-      "NFPA-25",
-      "Water-Supply"
+      "NFPA 25"
     ]
   },
   {
-    "id": 2,
     "question": "What is NFPA 13R used for?",
-    "answer": "Residential occupancies up to and including four stories in height",
-    "source": "Authority: NFPA, Document: NFPA 13R 2022 Edition, Section: Section 1.1",
+    "answer": "Residential occupancies up to and including four stories in height (NFPA 13R 2022 Edition, Section 1.1)",
+    "id": 1,
     "tags": [
-      "NFPA-13R",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
-    "id": 3,
     "question": "What is the coverage area for Ordinary Hazard heads?",
-    "answer": "130 square feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
+    "answer": "130 square feet (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
+    "id": 2,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 4,
     "question": "What is the coverage area for Light Hazard heads?",
-    "answer": "225 square feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
+    "answer": "225 square feet (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
+    "id": 3,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 5,
     "question": "What is the coverage area for Extra Hazard heads?",
-    "answer": "Extra Hazard Group 1: 0.3 gpm/ft² over 2500 sq ft; Extra Hazard Group 2: 0.4 gpm/ft² over 2500 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 19.2.3.1.1",
+    "answer": "100-130 square feet (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
+    "id": 4,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 6,
     "question": "What is the coverage area for ESFR heads?",
-    "answer": "100 square feet",
-    "source": "General ESFR design principles",
+    "answer": "100 square feet (NFPA 13 2025 Edition, Section 29.3.2)",
+    "id": 5,
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
-    "id": 7,
     "question": "What is the coverage area for Storage heads?",
-    "answer": "100 or 130 square feet",
-    "source": "NFPA 13 2025 Edition, Tables 18.1(a",
+    "answer": "100 or 130 square feet (NFPA 13 2025 Edition, Tables 18.1(a)-(d))",
+    "id": 6,
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 8,
     "question": "Minimum air pressure for a pressure tank?",
-    "answer": "Typically covered by NFPA 22; some hydropneumatic tanks have a factory pre-charge of 30 psi.",
-    "source": "Authority: NFPA, Document: NFPA 22, Section: Various (related to pressure tanks)",
+    "answer": "75 psi (NFPA 20 2022 Edition, Section 4.32.4)",
+    "id": 7,
     "tags": [
-      "NFPA-20",
-      "Water-Supply"
+      "NFPA 20"
     ]
   },
   {
-    "id": 9,
     "question": "What pipe sizes can feed 1\u00bd\" hose lines and for what length?",
-    "answer": "1\" for horizontal runs up to 20'; 1\u00bc\" for 20' to 80'; 1\u00bd\" for runs over 80'",
-    "source": "Source not found as Table 7.3.1.1 in NFPA 14 2022 Edition; information may be distributed across sections.",
+    "answer": "1\" for horizontal runs up to 20'; 1\u00bc\" for 20' to 80'; 1\u00bd\" for runs over 80' (NFPA 14 2022 Edition, Table 7.3.1.1)",
+    "id": 8,
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 14"
     ]
   },
   {
-    "id": 10,
     "question": "What are the bulb colors for each temperature rating?",
-    "answer": {
-      "Ordinary": "Orange/Red",
-      "Intermediate": "Yellow/Green",
-      "High": "Blue",
-      "Extra High": "Purple"
-    },
-    "source": "Authority: NFPA, Document: NFPA 13 2022 Edition, Section: Table 7.2.4.1",
+    "answer": "Ordinary: Orange/Red; Intermediate: Yellow/Green; High: Blue; Extra High: Purple (NFPA 13 2025 Edition, Table 7.2.4.1)",
+    "id": 9,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers-Temperature"
+      "NFPA 13"
     ]
   },
   {
-    "id": 11,
     "question": "True or False. Control valves that are controlling a fire sprinkler system in an area accessible to the public, and has 20 or less sprinklers on it does not have to be monitored or locked.",
-    "answer": "False",
-    "source": "Authority: Minnesota, Document: State Fire Code 2020, Section: 903.4",
+    "answer": "False (Minnesota State Fire Code 2020, Section 903.4)",
+    "id": 10,
     "tags": [
-      "Minnesota-Code",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "System-Components"
+      "Minnesota"
     ]
   },
   {
-    "id": 12,
     "question": "How often is the interior of a pressure tank inspected?",
-    "answer": "Every 5 years; every 3 years without corrosion protection",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 9.3.5",
+    "answer": "Every 5 years; every 3 years without corrosion protection (NFPA 25 2023 Edition, Section 9.3.5)",
+    "id": 11,
     "tags": [
-      "NFPA-25",
-      "Water-Supply"
+      "NFPA 25"
     ]
   },
   {
-    "id": 13,
     "question": "How often do you flow standpipes?",
-    "answer": "5 years",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 6.3.2.1",
+    "answer": "5 years (NFPA 25 2023 Edition, Section 6.3.2.1)",
+    "id": 12,
     "tags": [
-      "NFPA-25",
-      "Piping",
-      "Water-Supply"
+      "NFPA 25"
     ]
   },
   {
-    "id": 14,
     "question": "How many heads can be taken off a cold weather valve?",
-    "answer": "10",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.3.4",
+    "answer": "10 (NFPA 13 2025 Edition, Section 8.3.3.4)",
+    "id": 13,
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
-    "id": 15,
     "question": "Hanger spacing from end of pipe",
-    "answer": "1\": 3'; 1\u00bc\": 4'; 1\u00bd\"+: 5'",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
+    "answer": "1\": 3'; 1\u00bc\": 4'; 1\u00bd\"+: 5' (NFPA 13 2025 Edition, Section 18.5.5.2)",
+    "id": 14,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 16,
     "question": "Duration of water supply for NFPA 13D systems",
-    "answer": "7-10 minutes for one/two-family dwellings",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 6.1.3",
+    "answer": "7-10 minutes for one/two-family dwellings (NFPA 13D 2022 Edition, Section 6.5.2)",
+    "id": 15,
     "tags": [
-      "NFPA-13D",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
-    "id": 17,
     "question": "Why must a check valve with a 3/32\" hole in the Clapper be installed in the system riser below the test valve in freezer spaces?",
-    "answer": "Check valves with drilled clappers (e.g., 3/32\" orifice) are typically used in antifreeze systems to allow for thermal expansion.",
-    "source": "Authority: NFPA, Document: NFPA 13 (various sections related to antifreeze systems)",
+    "answer": "To prevent evaporation of priming water into system (NFPA 13 2025 Edition, Section 8.3.2.3)",
+    "id": 16,
     "tags": [
-      "NFPA-13",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
-    "id": 18,
     "question": "Maximum time allowed for water flow alarms to sound",
-    "answer": "5 minutes",
-    "source": "Authority: NFPA, Document: NFPA 13 2019 Edition, Section: Section 7.7 (also NFPA 72)",
+    "answer": "5 minutes (NFPA 13 2025 Edition, Section 8.17.1.5)",
+    "id": 17,
     "tags": [
-      "NFPA-13",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
-    "id": 19,
     "question": "What pressure and flow are 1\u00bd\" hose stations designed for?",
-    "answer": "Minimum 100 gpm at 65 psi residual pressure (for Class II systems)",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Various (related to Class II systems)",
+    "answer": "50 gpm at system pressure (NFPA 14 2022 Edition, Section 7.10.1.2.1)",
+    "id": 18,
     "tags": [
-      "NFPA-14",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 20,
     "question": "Class III and Class I standpipe systems are designed for what pressures and flows?",
-    "answer": "Minimum 500 gpm flow at 100 psi residual pressure (for the most hydraulically remote 2 1/2-inch hose connection)",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Various (related to Class I and III standpipe systems)",
+    "answer": "250 gpm @ 100 psi (NFPA 14 2022 Edition, Section 7.6)",
+    "id": 19,
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 21,
     "question": "Class II standpipe systems are designed for what pressures and flows?",
-    "answer": "100 gpm @ 65 psi",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.10.2",
+    "answer": "100 gpm @ 65 psi (NFPA 14 2022 Edition, Section 7.6.2)",
+    "id": 20,
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 22,
     "question": "Acceptance tests required for dry pipe systems",
-    "answer": [
-      "Hydro test",
-      "air test",
-      "alarm test"
-    ],
-    "source": "NFPA 13 2025 Edition, Chapter 29",
+    "answer": "Hydro test, air test, alarm test (NFPA 13 2025 Edition, Chapter 29)",
+    "id": 21,
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "Piping",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
-    "id": 23,
     "question": "Flow of a master stream is?",
-    "answer": "At least 250 gpm",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 3.3.17",
+    "answer": "At least 250 gpm (NFPA 14 2022 Edition, Section 3.3.17)",
+    "id": 22,
     "tags": [
-      "NFPA-14",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 24,
     "question": "Bypass around check valve on tank shall be required to fill the tank in how many hours? What is the minimum size of this bypass?",
-    "answer": "8 hours, 2\" diameter",
-    "source": "Authority: NFPA, Document: NFPA 22 2023 Edition, Section: Section 14.2.11",
-    "tags": [
-      "NFPA-22",
-      "Piping-Dimensions",
-      "System-Components",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 25,
-    "question": "Minimum amount of time to close a valve?",
-    "answer": "5 seconds",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.9.5.2",
-    "tags": [
-      "NFPA-13",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 26,
-    "question": "Why is the eccentric reducer on the suction side of the pump?",
-    "answer": "To prevent air pockets",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.15.6.3",
-    "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 27,
-    "question": "What color frame arms are on extra high temp sprinkler heads?",
-    "answer": "Frame arms typically chrome/brass; temp by bulb",
-    "source": "NFPA 13 2025 Edition, no frame color code",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 28,
-    "question": "What percent of portable fire extinguishers can be removed if 1\u00bd\" hose lines are capable of reaching all parts of the building?",
-    "answer": "Up to 50%",
-    "source": "Authority: Minnesota, Document: State Fire Code 2020, Section: 906.1",
-    "tags": [
-      "Minnesota-Code"
-    ]
-  },
-  {
-    "id": 29,
-    "question": "What did NFPA 231C govern?",
-    "answer": "Rack storage",
-    "source": "NFPA 13 2025 Edition, Chapter 25",
-    "tags": [
-      "NFPA-13",
-      "NFPA-231C"
-    ]
-  },
-  {
-    "id": 30,
-    "question": "What type of pipe is not allowed for use in NFPA 13D?",
-    "answer": "Aluminum or other pipe not listed",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 5.2",
-    "tags": [
-      "NFPA-13D",
-      "Piping"
-    ]
-  },
-  {
-    "id": 31,
-    "question": "Extra heavy pattern fittings shall be used when?",
-    "answer": "When pressures exceed 175 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.1",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "System-Components",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 32,
-    "question": "What is the contractor's certificate used for?",
-    "answer": "System acceptance",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.1",
-    "tags": [
-      "Installation",
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 33,
-    "question": "When are return bends used?",
-    "answer": "Systems connected to non-potable water supplies",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.16.4.2",
-    "tags": [
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 34,
-    "question": "Powder driven studs must have what attached to them?",
-    "answer": "Increaser couplings",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.3.3",
-    "tags": [
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 35,
-    "question": "What size head orifice must be used when installing sprinklers in a kitchen hood and a vent duct?",
-    "answer": "K-5.6 or listed",
-    "source": "Authority: NFPA, Document: NFPA 17A 2024 Edition, Section: Section 4.3",
-    "tags": [
-      "NFPA-17A",
-      "Piping-Dimensions",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 36,
-    "question": "What temperature heads should be used for light, ordinary, and extra hazard?",
-    "answer": "Ordinary",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 7.3.2",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 37,
-    "question": "Sidewall sprinklers shall not be used under what type of ceiling?",
-    "answer": "Sloped ceilings or ceilings that aren't flat",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 12.1.2",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 38,
-    "question": "Are FDCs required for NFPA 13R systems?",
-    "answer": "All but single-story buildings that are less than 2000 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13R 2022 Edition, Section: Section 6.6.4",
-    "tags": [
-      "NFPA-13R",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 39,
-    "question": "Pump rooms shall be lighted and heated?",
-    "answer": "Yes",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.12.1",
-    "tags": [
-      "Fire-Pumps",
-      "Hazard-Classification",
-      "NFPA-20"
-    ]
-  },
-  {
-    "id": 40,
-    "question": "In scheduled systems, what are the maximum numbers of sprinkler heads that can be taken off sizes 1\" through 3\"?",
-    "answer": [
-      "1\":2",
-      "1\u00bc\":3",
-      "1\u00bd\":5",
-      "2\":10",
-      "etc."
-    ],
-    "source": "NFPA 13 2025 Edition, Schedule Tables",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 41,
-    "question": "Maximum time allowed for water to reach inspectors test on dry pipe system?",
-    "answer": "60 seconds",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.3.7",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 42,
-    "question": "Hanger spacing for steel pipe",
-    "answer": "1\"/1\u00bc\":12'; 1\u00bd\"-8\":15'"
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 43,
-    "question": "Hanger spacing for threadable lightwall steel pipe 1\" to 3\"",
-    "answer": "12'",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Piping",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 44,
-    "question": "Hanger spacing for copper tube pipe",
-    "answer": "\u00be\"-1\":8'; 1\u00bc\"-1\u00bd\":10'; 2\"-3\":12'; 3.5\"-8\":15'",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(b",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 45,
-    "question": "Hanger spacing for CPVC pipe",
-    "answer": [
-      "\u00be\":5'6\"",
-      "1\":6'",
-      "1\u00bc\":6'6\"",
-      "1\u00bd\":7'",
-      "2\":8'",
-      "2\u00bd\":9'",
-      "3\":10'"
-    ],
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(c",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 46,
-    "question": "Distance between support of risers shall not exceed?",
-    "answer": "25 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.6.4",
-    "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 47,
-    "question": "Hanger required within what distance on horizontal main after riser?",
-    "answer": "Within 24\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.3.2",
-    "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 48,
-    "question": "Where does the FDC go on a single zone dry system?",
-    "answer": "Between dry pipe valve and control valve",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.12.3",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 49,
-    "question": "What temperature sprinkler head if above a heat duct?",
-    "answer": "High if within 7' radius",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 50,
-    "question": "Seismic bracing and pipe hangers inspected from floor level how often?",
-    "answer": "Annually",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 5.2.3",
-    "tags": [
-      "NFPA-25",
-      "Piping",
-      "Piping-Support"
-    ]
-  },
-  {
-    "id": 51,
-    "question": "Maximum distance between 1\u00bd\" hose stations?",
-    "answer": "130 ft hose reach",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.3.3",
-    "tags": [
-      "NFPA-14",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 52,
-    "question": "What is the Minnesota state fire protection code?",
-    "answer": "299M",
-    "source": "Authority: MN, Document: Statutes, Section: Chapter 299M",
-    "tags": [
-      "Minnesota-Code"
-    ]
-  },
-  {
-    "id": 53,
-    "question": "What is the fine for working in Minnesota without a Minnesota journeyman's license?",
-    "answer": "Misdemeanor, with fines up to $10,000 and/or up to 90 days imprisonment.",
-    "source": "MN Statutes 609.02 Subd. 3; 299M",
-    "tags": [
-      "Minnesota-Code"
-    ]
-  },
-  {
-    "id": 54,
-    "question": "What is the maximum square footage of a light hazard zone?",
-    "answer": "52,000 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.2",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 55,
-    "question": "What is the maximum square footage of an ordinary hazard zone?",
-    "answer": "52,000 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.3",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 56,
-    "question": "What is the maximum square footage of an extra hazard zone?",
-    "answer": [
-      "40",
-      "000 sq ft for hydraulically calculated systems and 20",
-      "000 sq ft for scheduled systems"
-    ],
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.4",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Piping-Dimensions"
-    ]
-  },
-  {
-    "id": 57,
-    "question": "What is the maximum square footage of storage zones?",
-    "answer": "40,000 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.5",
-    "tags": [
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 58,
-    "question": "What is mandatory on the suction side of the pump before the eccentric reducer?",
-    "answer": "OS&Y valve",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.16",
-    "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 59,
-    "question": "What is mandatory on the discharge side of the fire pump?",
-    "answer": "Listed check or backflow then an indicating valve",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.17",
-    "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "System-Components",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 60,
-    "question": "When using a cement solvent as a bonding agent you must or must not put a sprinkler head in the fitting before you screw it onto the pipe?",
-    "answer": "Must not",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.4",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Sprinklers",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 61,
-    "question": "When installing pipe on a dry system inside a refrigerated space, what pitch is required for the mains?",
-    "answer": "\u00bd\" per 10 feet for mains and lines",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.2.2",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 62,
-    "question": "Air supply entering the freezer area shall be equipped with two supply lines at least 6 feet long and of what diameter pipe?",
-    "answer": "1 inch",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.3.3",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 63,
-    "question": "What is NFPA 13D used for?",
-    "answer": "Single and two-family dwellings",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 1.1",
-    "tags": [
-      "NFPA-13D"
-    ]
-  },
-  {
-    "id": 64,
-    "question": "Is an FDC required for an NFPA 13D type system?",
-    "answer": "No",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 5.5",
-    "tags": [
-      "NFPA-13D",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 65,
-    "question": "There is a new suspended ceiling installed under an existing system, what is the maximum length of the nipple rising out of the tee to supply pendant heads below?",
-    "answer": "Up to 12\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.2.5.2.3",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 66,
-    "question": "An area of low temperature and low combustibility is considered what type of hazard?",
-    "answer": "Light hazard",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 4.3.1",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers-Spacing",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 67,
-    "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
-    "answer": "12 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 68,
-    "question": "Minimum clearance between storage and deflector of large drop sprinkler heads?",
-    "answer": "3 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 14.2.4.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 69,
-    "question": "What type of system works with or without air pressure?",
-    "answer": "Preaction system",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 3.3.19",
-    "tags": [
-      "NFPA-13",
-      "System-Types",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 70,
-    "question": "Besides the heads going off on a preaction system, what must happen before water enters the system?",
-    "answer": "Detection system must be activated",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.2",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 71,
-    "question": "A pump room and valve enclosure must maintain a temperature of what to keep from freezing.",
-    "answer": "40\u00b0F or above",
-    "source": "4\u00b0C",
-    "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Sprinklers-Temperature",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 72,
-    "question": "True or False. Powder driven studs or welded studs must have a coupling to attach to the rods.",
-    "answer": "True",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.3.3",
-    "tags": [
-      "NFPA-13"
-    ]
-  },
-  {
-    "id": 73,
-    "question": "How long should the water supply be capable of supplying all exposure sprinklers during a fire?",
-    "answer": "60 minutes",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 13.1.2",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 74,
-    "question": "A relief valve shall be set to relieve pressure at what psi?",
-    "answer": "175 psi or 10 psi over maximum system pressure",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.1.2",
-    "tags": [
-      "NFPA-13",
-      "System-Components",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 75,
-    "question": "When does the license for a journeyman expire each year?",
-    "answer": "June 30th",
-    "source": "Authority: MN, Document: Rules, Section: 7512.0200 Subp. 2",
-    "tags": [
-      "Minnesota-Code"
-    ]
-  },
-  {
-    "id": 76,
-    "question": "When installing an antifreeze system, the solutions shall conform to who?",
-    "answer": "Local Health Department",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.3.3",
-    "tags": [
-      "NFPA-13",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 77,
-    "question": "Minimum operating pressure for a sprinkler head?",
-    "answer": "7 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 7.5.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 78,
-    "question": "What type of pipe is not acceptable for a standpipe?",
-    "answer": "Ductile iron pipe allowed if listed",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 5.1.1",
-    "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Materials"
-    ]
-  },
-  {
-    "id": 79,
-    "question": "When are local waterflow alarms needed?",
-    "answer": "When there is more than 20 heads",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.17.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 80,
-    "question": "What is the smallest orifice size for a head in a rack storage system?",
-    "answer": "5.6 or 8.0 K factor",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 21.1",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 81,
-    "question": "Minimum clearance between deflector and storage of standard sprinkler head?",
-    "answer": "18\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.1.4",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 82,
-    "question": "Minimum height above grade for a fire hydrant?",
-    "answer": "18\"",
-    "source": "Authority: MN, Document: Rules, Section: 7512.0100 Subp. 36",
-    "tags": [
-      "Minnesota-Code",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 83,
-    "question": "Minimum and maximum height above grade an FDC shall be placed?",
-    "answer": "18\" and 48\"",
-    "source": "MN Fire Code 2020, Section 912.2.2",
-    "tags": [
-      "Minnesota-Code",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 84,
-    "question": "How often do you check air and water levels on a pressure tank?",
-    "answer": "Monthly",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 9.3.4",
-    "tags": [
-      "NFPA-25",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 85,
-    "question": "How often do you check standpipe components?",
-    "answer": "Quarterly",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 6.2.1",
-    "tags": [
-      "NFPA-25",
-      "Piping"
-    ]
-  },
-  {
-    "id": 86,
-    "question": "How often do you check standpipe valves?",
-    "answer": "Quarterly",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 13.3.2",
-    "tags": [
-      "NFPA-25",
-      "Piping",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 87,
-    "question": "How often do you inspect FDCs?",
-    "answer": "Quarterly",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 13.8.1",
-    "tags": [
-      "NFPA-25",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 88,
-    "question": "How often do you inspect kitchen hoods?",
-    "answer": "Monthly",
-    "source": "Authority: NFPA, Document: NFPA 96 2024 Edition, Section: Section 12.4",
-    "tags": [
-      "NFPA-96"
-    ]
-  },
-  {
-    "id": 89,
-    "question": "How often shall the fire pumps below be run? Diesel Electric Steam",
-    "answer": "Diesel = Weekly for a minimum of 30-minute run time Electric = Weekly for a minimum of 10-minute run time Steam = Weekly",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 8.3.3",
-    "tags": [
-      "Fire-Pumps",
-      "NFPA-25"
-    ]
-  },
-  {
-    "id": 90,
-    "question": "Main drain size for risers?",
-    "answer": "Up to 2\": \u00be\"; 2\u00bd\" to 3\u00bd\": 1\u00bc\"; 4\" and larger: 2\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 29.2.1.15",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
-    ]
-  },
-  {
-    "id": 91,
-    "question": "Amount of time for a compressor to fill a dry system?",
-    "answer": "30 minutes",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.6.3",
-    "tags": [
-      "NFPA-13",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 92,
-    "question": "When calculating a sprinkler system, which part is most remote?",
-    "answer": "Farthest head from the riser",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 93,
-    "question": "Where do calculations start on a sprinkler system?",
-    "answer": "Remote end head",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 94,
-    "question": "How many residential heads do you calculate on an NFPA 13 type calculation?",
-    "answer": "4 continuous heads",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4.6",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 95,
-    "question": "Distances of a hose valve location above the floor?",
-    "answer": "3' to 5'",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.3.4",
-    "tags": [
-      "NFPA-14",
-      "Sprinklers-Spacing",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 96,
-    "question": "When can sprinklers have a closed valve?",
-    "answer": "When they are constantly attended",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.9.3",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 97,
-    "question": "What type of sprinkler heads do you use when temperatures exceed 100\u00b0F?",
-    "answer": "Intermediate or high temperature",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 98,
-    "question": "Temperature range for intermediate heads?",
-    "answer": "Max ceiling temp = 150\u00b0F Temperature rating = 175\u00b0F to 225\u00b0F",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 99,
-    "question": "A pressure tank shall be at least how full?",
-    "answer": "At least \u2154 full",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 9.3.4.2",
-    "tags": [
-      "NFPA-25",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 100,
-    "question": "When the system pressure exceeds 100 psi, the unsupported distance between the end sprinkler in the pendant position or drop nipple and the closest hanger shall not exceed what?",
-    "answer": "Steel - 1 foot Copper - 6\" CPVC - 6\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.10",
-    "tags": [
-      "NFPA-13",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 101,
-    "question": "Horizontal piping from the standpipe to the hose connection more than 18\" long shall be provided with hangers?",
-    "answer": "Yes",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 9.1.3",
-    "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Support"
-    ]
-  },
-  {
-    "id": 102,
-    "question": "What pitch is required for dry systems?",
-    "answer": "\u00bd\" per 10 feet for mains \u00bc\" per 10 feet for branch lines",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.2",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 103,
-    "question": "Minimum discharge of a residential sprinkler head?",
-    "answer": "Single head design = 18 gpm Two head design = 13 gpm",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 11.1",
-    "tags": [
-      "NFPA-13D",
-      "Sprinklers",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 104,
-    "question": "Maximum spacing between residential sprinkler heads?",
-    "answer": "12 feet or 144 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 10.2",
-    "tags": [
-      "NFPA-13D",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 105,
-    "question": "Maximum size pipe a lag screw rod can support?",
-    "answer": "4\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.9.6",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
-    ]
-  },
-  {
-    "id": 106,
-    "question": "What color bulb is required for a head in a heater zone within a 7 ft circle?",
-    "answer": "Blue",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.2.4.1",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 107,
-    "question": "Minimum distance between heads for residential type?",
-    "answer": "8 feet",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 10.2.1",
-    "tags": [
-      "NFPA-13D",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types"
-    ]
-  },
-  {
-    "id": 108,
-    "question": "What areas do not need sprinklers in NFPA 13R?",
-    "answer": [
-      "A. Bathrooms less than 55 sq ft",
-      "B. Closets less than 24 sq ft and least dimension under 3 feet",
-      "C. Porches and balconies",
-      "D. Attics and concealed spaces"
-    ],
-    "source": "Authority: NFPA, Document: NFPA 13R 2022 Edition, Section: Section 6.4",
-    "tags": [
-      "NFPA-13R",
-      "Sprinklers",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 109,
-    "question": "Lag screw size for 6\" pipe?",
-    "answer": "\u00bd inch",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.5.9.1",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions"
-    ]
-  },
-  {
-    "id": 110,
-    "question": "Length of hose in hose stations?",
-    "answer": "100 feet",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.3.2",
-    "tags": [
-      "NFPA-14",
-      "Piping-Dimensions"
-    ]
-  },
-  {
-    "id": 111,
-    "question": "Sprinklers under skylights shall have what temperature rating?",
-    "answer": "Intermediate",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
-    ]
-  },
-  {
-    "id": 112,
-    "question": "In attics, what is the maximum distance the heads can be out of center and what is the maximum distance vertically from the peak the heads can be?",
-    "answer": "Up to 3 ft off center",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 12.1.1.3",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 113,
-    "question": "In hotels and motels, NFPA 13 does not require heads in the closets when they meet what two provisions?",
-    "answer": "Less than 24 sq ft and least dimension less than 3 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.5.5.13",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 114,
-    "question": "How often is lateral sway bracing needed for feed and cross mains?",
-    "answer": "Every 40 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.10.3",
-    "tags": [
-      "NFPA-13",
-      "Piping-Support"
-    ]
-  },
-  {
-    "id": 115,
-    "question": "Maximum distance after check valve that the FDC must be located?",
-    "answer": "No max specified",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.12.3",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers-Spacing",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 116,
-    "question": "What is the spare sprinkler head schedule?",
-    "answer": "0-299 heads = 6 spare heads 300-999 heads = 12 spare heads 1000+ heads = 24 spare heads",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 7.3.1",
-    "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 117,
-    "question": "How many manual and automatic starts are needed when performing acceptance testing of fire pump?",
-    "answer": "At least six",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 14.2.5",
-    "tags": [
-      "Fire-Pumps",
-      "Installation",
-      "NFPA-20"
-    ]
-  },
-  {
-    "id": 118,
-    "question": "Minimum size of discharge on tank?",
-    "answer": "6 inches in most cases but not less than 2\"",
-    "source": "Authority: NFPA, Document: NFPA 22 2023 Edition, Section: Section 5.3.1",
-    "tags": [
-      "NFPA-22",
-      "Piping-Dimensions",
-      "Water-Supply"
-    ]
-  },
-  {
-    "id": 119,
-    "question": "What is the minimum distance required of a lintel to have it considered a compartment?",
-    "answer": "8 inches",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.5.3.1.5",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 120,
-    "question": "What distance changes the spacing of sprinkler heads when dealing with vertical ceiling height changes?",
-    "answer": ">36 inches heads must be equally spaced from both sides of the soffit",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.1.3",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 121,
-    "question": "What types of sprinkler heads can be used on dry systems?",
-    "answer": [
-      "Uprights",
-      "sidewalls where water is not trapped",
-      "listed dry pendants & sidewalls",
-      "and pendants & sidewalls off return bends"
-    ],
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.4.8",
-    "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 122,
-    "question": "Dry systems air leakage allowed per week?",
-    "answer": "3 psi max loss in 24 hrs at 40 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.2.1.1",
-    "tags": [
-      "NFPA-13",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 123,
-    "question": "What is the maximum volume of an antifreeze loop?",
-    "answer": "None in NFPA 13, 40 gallons in NFPA 13D and NFPA 13R",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.3.4",
-    "tags": [
-      "NFPA-13",
-      "NFPA-13D",
-      "NFPA-13R",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 124,
-    "question": "Who invented pipe calculations?",
-    "answer": "Hazen Williams",
-    "source": "Standardhydraulic method",
-    "tags": [
-      "Piping"
-    ]
-  },
-  {
-    "id": 125,
-    "question": "How much weight should a hanger be able to support?",
-    "answer": "Water filled pipe plus 250 lbs",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.1.1.2",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Support"
-    ]
-  },
-  {
-    "id": 126,
-    "question": "How many gauges are on a dry pipe system?",
-    "answer": "At least 2",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.13",
-    "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types"
-    ]
-  },
-  {
-    "id": 127,
-    "question": "How many heads do you calculate on an NFPA 13R type system?",
-    "answer": "Up to a maximum of four",
-    "source": "Authority: NFPA, Document: NFPA 13R 2022 Edition, Section: Section 11.2",
-    "tags": [
-      "NFPA-13R",
-      "Sprinklers"
-    ]
-  },
-  {
-    "id": 128,
-    "question": "Light hazard small room rule is what?",
-    "answer": "Unobstructed construction and an area of not more than 800 sq ft that is enclosed",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.1.7",
-    "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers-Spacing"
-    ]
-  },
-  {
-    "id": 129,
-    "question": "Post indicator valves shall be located not less than how many feet from a building?",
-    "answer": "40 feet",
-    "source": "Authority: NFPA, Document: NFPA 24 2022 Edition, Section: Section 6.3.3",
-    "tags": [
-      "NFPA-24",
-      "System-Components"
-    ]
-  },
-  {
-    "id": 130,
-    "question": "What is the universal code that deals with fire protection?",
-    "answer": [
-      "UFC",
-      "IBC",
-      "IFC"
-    ],
-    "source": "Various jurisdictions",
+    "answer": "8 hours, 2\" diameter (NFPA 22 2023 Edition, Section 14.2.11)",
+    "id": 23,
     "tags": [
       "General"
     ]
   },
   {
-    "id": 131,
+    "question": "Minimum amount of time to close a valve?",
+    "answer": "5 seconds (NFPA 13 2025 Edition, Section 16.9.5.2)",
+    "id": 24,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Why is the eccentric reducer on the suction side of the pump?",
+    "answer": "To prevent air pockets (NFPA 20 2022 Edition, Section 4.15.6.3)",
+    "id": 25,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "What color frame arms are on extra high temp sprinkler heads?",
+    "answer": "Frame arms typically chrome/brass; temp by bulb (NFPA 13 2025 Edition, no frame color code)",
+    "id": 26,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What percent of portable fire extinguishers can be removed if 1\u00bd\" hose lines are capable of reaching all parts of the building?",
+    "answer": "Up to 50% (Minnesota State Fire Code 2020, Section 906.1)",
+    "id": 27,
+    "tags": [
+      "Minnesota"
+    ]
+  },
+  {
+    "question": "What did NFPA 231C govern?",
+    "answer": "Rack storage (NFPA 13 2025 Edition, Chapter 25)",
+    "id": 28,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What type of pipe is not allowed for use in NFPA 13D?",
+    "answer": "Aluminum or other pipe not listed (NFPA 13D 2022 Edition, Section 5.2)",
+    "id": 29,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Extra heavy pattern fittings shall be used when?",
+    "answer": "When pressures exceed 175 psi (NFPA 13 2025 Edition, Section 10.3.1)",
+    "id": 30,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the contractor's certificate used for?",
+    "answer": "System acceptance (NFPA 13 2025 Edition, Section 29.1)",
+    "id": 31,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "When are return bends used?",
+    "answer": "Systems connected to non-potable water supplies (NFPA 13 2025 Edition, Section 8.16.4.2)",
+    "id": 32,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Powder driven studs must have what attached to them?",
+    "answer": "Increaser couplings (NFPA 13 2025 Edition, Section 18.5.3.3)",
+    "id": 33,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What size head orifice must be used when installing sprinklers in a kitchen hood and a vent duct?",
+    "answer": "K-5.6 or listed (NFPA 17A 2024 Edition, Section 4.3)",
+    "id": 34,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "What temperature heads should be used for light, ordinary, and extra hazard?",
+    "answer": "Ordinary (NFPA 13 2025 Edition, Section 7.3.2)",
+    "id": 35,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Sidewall sprinklers shall not be used under what type of ceiling?",
+    "answer": "Sloped ceilings or ceilings that aren't flat (NFPA 13 2025 Edition, Section 12.1.2)",
+    "id": 36,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Are FDCs required for NFPA 13R systems?",
+    "answer": "All but single-story buildings that are less than 2000 sq ft (NFPA 13R 2022 Edition, Section 6.6.4)",
+    "id": 37,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Pump rooms shall be lighted and heated?",
+    "answer": "Yes (NFPA 20 2022 Edition, Section 4.12.1)",
+    "id": 38,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "In scheduled systems, what are the maximum numbers of sprinkler heads that can be taken off sizes 1\" through 3\"?",
+    "answer": "1\":2, 1\u00bc\":3, 1\u00bd\":5, 2\":10, etc. (NFPA 13 2025 Edition, Schedule Tables)",
+    "id": 39,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Maximum time allowed for water to reach inspectors test on dry pipe system?",
+    "answer": "60 seconds (NFPA 13 2025 Edition, Section 8.3.3.7)",
+    "id": 40,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger spacing for steel pipe",
+    "answer": "1\"/1\u00bc\":12', 1\u00bd\"-8\":15' (NFPA 13 2025 Edition, Table 18.4.1(a))",
+    "id": 41,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger spacing for threadable lightwall steel pipe 1\" to 3\"",
+    "answer": "12' (NFPA 13 2025 Edition, Table 18.4.1(a))",
+    "id": 42,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger spacing for copper tube pipe",
+    "answer": "\u00be\"-1\":8', 1\u00bc\"-1\u00bd\":10', 2\"-3\":12', 3.5\"-8\":15' (NFPA 13 2025 Edition, Table 18.4.1(b))",
+    "id": 43,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger spacing for CPVC pipe",
+    "answer": "\u00be\":5'6\", 1\":6', 1\u00bc\":6'6\", 1\u00bd\":7', 2\":8', 2\u00bd\":9', 3\":10' (NFPA 13 2025 Edition, Table 18.4.1(c))",
+    "id": 44,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Distance between support of risers shall not exceed?",
+    "answer": "25 feet (NFPA 13 2025 Edition, Section 18.5.6.4)",
+    "id": 45,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger required within what distance on horizontal main after riser?",
+    "answer": "Within 24\" (NFPA 13 2025 Edition, Section 18.5.3.2)",
+    "id": 46,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Where does the FDC go on a single zone dry system?",
+    "answer": "Between dry pipe valve and control valve (NFPA 13 2025 Edition, Section 16.12.3)",
+    "id": 47,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What temperature sprinkler head if above a heat duct?",
+    "answer": "High if within 7' radius (NFPA 13 2025 Edition, Table 7.3.2.1)",
+    "id": 48,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Seismic bracing and pipe hangers inspected from floor level how often?",
+    "answer": "Annually (NFPA 25 2023 Edition, Section 5.2.3)",
+    "id": 49,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "Maximum distance between 1\u00bd\" hose stations?",
+    "answer": "130 ft hose reach (NFPA 14 2022 Edition, Section 7.3.3)",
+    "id": 50,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "What is the Minnesota state fire protection code?",
+    "answer": "299M (MN Statutes Chapter 299M)",
+    "id": 51,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "What is the fine for working in Minnesota without a Minnesota journeyman's license?",
+    "answer": "Misdemeanor, up to $1,000/90 days (MN Statutes 609.02 Subd. 3; 299M)",
+    "id": 52,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "What is the maximum square footage of a light hazard zone?",
+    "answer": "52,000 sq ft (NFPA 13 2025 Edition, Section 5.2)",
+    "id": 53,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum square footage of an ordinary hazard zone?",
+    "answer": "52,000 sq ft (NFPA 13 2025 Edition, Section 5.3)",
+    "id": 54,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum square footage of an extra hazard zone?",
+    "answer": "40,000 sq ft for hydraulically calculated systems and 20,000 sq ft for scheduled systems (NFPA 13 2025 Edition, Section 5.4)",
+    "id": 55,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum square footage of storage zones?",
+    "answer": "40,000 sq ft (NFPA 13 2025 Edition, Section 5.5)",
+    "id": 56,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is mandatory on the suction side of the pump before the eccentric reducer?",
+    "answer": "OS&Y valve (NFPA 20 2022 Edition, Section 4.16)",
+    "id": 57,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "What is mandatory on the discharge side of the fire pump?",
+    "answer": "Listed check or backflow then an indicating valve (NFPA 20 2022 Edition, Section 4.17)",
+    "id": 58,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "When using a cement solvent as a bonding agent you must or must not put a sprinkler head in the fitting before you screw it onto the pipe?",
+    "answer": "Must not (NFPA 13 2025 Edition, Section 10.3.4)",
+    "id": 59,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "When installing pipe on a dry system inside a refrigerated space, what pitch is required for the mains?",
+    "answer": "\u00bd\" per 10 feet for mains and lines (NFPA 13 2025 Edition, Section 8.2.2.2)",
+    "id": 60,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Air supply entering the freezer area shall be equipped with two supply lines at least 6 feet long and of what diameter pipe?",
+    "answer": "1 inch (NFPA 13 2025 Edition, Section 8.2.3.3)",
+    "id": 61,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is NFPA 13D used for?",
+    "answer": "Single and two-family dwellings (NFPA 13D 2022 Edition, Section 1.1)",
+    "id": 62,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Is an FDC required for an NFPA 13D type system?",
+    "answer": "No (NFPA 13D 2022 Edition, Section 5.5)",
+    "id": 63,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "There is a new suspended ceiling installed under an existing system, what is the maximum length of the nipple rising out of the tee to supply pendant heads below?",
+    "answer": "Up to 12\" (NFPA 13 2025 Edition, Section 11.2.5.2.3)",
+    "id": 64,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "An area of low temperature and low combustibility is considered what type of hazard?",
+    "answer": "Light hazard (NFPA 13 2025 Edition, Section 4.3.1)",
+    "id": 65,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
+    "answer": "12 feet (NFPA 13 2025 Edition, Table 18.4.1(a))",
+    "id": 66,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum clearance between storage and deflector of large drop sprinkler heads?",
+    "answer": "3 feet (NFPA 13 2025 Edition, Section 14.2.4.1)",
+    "id": 67,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What type of system works with or without air pressure?",
+    "answer": "Preaction system (NFPA 13 2025 Edition, Section 3.3.19)",
+    "id": 68,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Besides the heads going off on a preaction system, what must happen before water enters the system?",
+    "answer": "Detection system must be activated (NFPA 13 2025 Edition, Section 8.3.2)",
+    "id": 69,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "A pump room and valve enclosure must maintain a temperature of what to keep from freezing.",
+    "answer": "40\u00b0F (4\u00b0C) or above (NFPA 20 2022 Edition, Section 4.32.1)",
+    "id": 70,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "True or False. Powder driven studs or welded studs must have a coupling to attach to the rods.",
+    "answer": "True (NFPA 13 2025 Edition, Section 18.5.3.3)",
+    "id": 71,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How long should the water supply be capable of supplying all exposure sprinklers during a fire?",
+    "answer": "60 minutes (NFPA 13 2025 Edition, Section 13.1.2)",
+    "id": 72,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "A relief valve shall be set to relieve pressure at what psi?",
+    "answer": "175 psi or 10 psi over maximum system pressure (NFPA 13 2025 Edition, Section 8.1.2)",
+    "id": 73,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "When does the license for a journeyman expire each year?",
+    "answer": "June 30th (MN Rules 7512.0200 Subp. 2)",
+    "id": 74,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "When installing an antifreeze system, the solutions shall conform to who?",
+    "answer": "Local Health Department (NFPA 13 2025 Edition, Section 5.3.3)",
+    "id": 75,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum operating pressure for a sprinkler head?",
+    "answer": "7 psi (NFPA 13 2025 Edition, Section 7.5.1)",
+    "id": 76,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What type of pipe is not acceptable for a standpipe?",
+    "answer": "Ductile iron pipe allowed if listed (NFPA 14 2022 Edition, Section 5.1.1)",
+    "id": 77,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "When are local waterflow alarms needed?",
+    "answer": "When there is more than 20 heads (NFPA 13 2025 Edition, Section 8.17.1)",
+    "id": 78,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the smallest orifice size for a head in a rack storage system?",
+    "answer": "5.6 or 8.0 K factor (NFPA 13 2025 Edition, Section 21.1)",
+    "id": 79,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum clearance between deflector and storage of standard sprinkler head?",
+    "answer": "18\" (NFPA 13 2025 Edition, Section 11.1.4)",
+    "id": 80,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum height above grade for a fire hydrant?",
+    "answer": "18\" (MN Rules 7512.0100 Subp. 36)",
+    "id": 81,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "Minimum and maximum height above grade an FDC shall be placed?",
+    "answer": "18\" and 48\" (MN Fire Code 2020, Section 912.2.2)",
+    "id": 82,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "How often do you check air and water levels on a pressure tank?",
+    "answer": "Monthly (NFPA 25 2023 Edition, Section 9.3.4)",
+    "id": 83,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "How often do you check standpipe components?",
+    "answer": "Quarterly (NFPA 25 2023 Edition, Section 6.2.1)",
+    "id": 84,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "How often do you check standpipe valves?",
+    "answer": "Quarterly (NFPA 25 2023 Edition, Section 13.3.2)",
+    "id": 85,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "How often do you inspect FDCs?",
+    "answer": "Quarterly (NFPA 25 2023 Edition, Section 13.8.1)",
+    "id": 86,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "How often do you inspect kitchen hoods?",
+    "answer": "Monthly (NFPA 96 2024 Edition, Section 12.4)",
+    "id": 87,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "How often shall the fire pumps below be run? Diesel Electric Steam",
+    "answer": "Diesel = Weekly for a minimum of 30-minute run time Electric = Weekly for a minimum of 10-minute run time Steam = Weekly (NFPA 25 2023 Edition, Section 8.3.3)",
+    "id": 88,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "Main drain size for risers?",
+    "answer": "Up to 2\": \u00be\"; 2\u00bd\" to 3\u00bd\": 1\u00bc\"; 4\" and larger: 2\" (NFPA 13 2025 Edition, Table 29.2.1.15)",
+    "id": 89,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Amount of time for a compressor to fill a dry system?",
+    "answer": "30 minutes (NFPA 13 2025 Edition, Section 8.2.6.3)",
+    "id": 90,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "When calculating a sprinkler system, which part is most remote?",
+    "answer": "Farthest head from the riser (NFPA 13 2025 Edition, Section 27.2.4)",
+    "id": 91,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Where do calculations start on a sprinkler system?",
+    "answer": "Remote end head (NFPA 13 2025 Edition, Section 27.2.4)",
+    "id": 92,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How many residential heads do you calculate on an NFPA 13 type calculation?",
+    "answer": "4 continuous heads (NFPA 13 2025 Edition, Section 27.2.4.6)",
+    "id": 93,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Distances of a hose valve location above the floor?",
+    "answer": "3' to 5' (NFPA 14 2022 Edition, Section 7.3.4)",
+    "id": 94,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "When can sprinklers have a closed valve?",
+    "answer": "When they are constantly attended (NFPA 13 2025 Edition, Section 16.9.3)",
+    "id": 95,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What type of sprinkler heads do you use when temperatures exceed 100\u00b0F?",
+    "answer": "Intermediate or high temperature (NFPA 13 2025 Edition, Table 7.3.2.1)",
+    "id": 96,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Temperature range for intermediate heads?",
+    "answer": "Max ceiling temp = 150\u00b0F Temperature rating = 175\u00b0F to 225\u00b0F (NFPA 13 2025 Edition, Table 7.3.2.1)",
+    "id": 97,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "A pressure tank shall be at least how full?",
+    "answer": "At least \u2154 full (NFPA 25 2023 Edition, Section 9.3.4.2)",
+    "id": 98,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "When the system pressure exceeds 100 psi, the unsupported distance between the end sprinkler in the pendant position or drop nipple and the closest hanger shall not exceed what?",
+    "answer": "Steel - 1 foot Copper - 6\" CPVC - 6\" (NFPA 13 2025 Edition, Section 18.5.5.10)",
+    "id": 99,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Horizontal piping from the standpipe to the hose connection more than 18\" long shall be provided with hangers?",
+    "answer": "Yes (NFPA 14 2022 Edition, Section 9.1.3)",
+    "id": 100,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "What pitch is required for dry systems?",
+    "answer": "\u00bd\" per 10 feet for mains \u00bc\" per 10 feet for branch lines (NFPA 13 2025 Edition, Section 8.2.2)",
+    "id": 101,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum discharge of a residential sprinkler head?",
+    "answer": "Single head design = 18 gpm Two head design = 13 gpm (NFPA 13D 2022 Edition, Section 11.1)",
+    "id": 102,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Maximum spacing between residential sprinkler heads?",
+    "answer": "12 feet or 144 sq ft (NFPA 13D 2022 Edition, Section 10.2)",
+    "id": 103,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Maximum size pipe a lag screw rod can support?",
+    "answer": "4\" (NFPA 13 2025 Edition, Section 18.5.9.6)",
+    "id": 104,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What color bulb is required for a head in a heater zone within a 7 ft circle?",
+    "answer": "Blue (NFPA 13 2025 Edition, Table 7.2.4.1)",
+    "id": 105,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Minimum distance between heads for residential type?",
+    "answer": "8 feet (NFPA 13D 2022 Edition, Section 10.2.1)",
+    "id": 106,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What areas do not need sprinklers in NFPA 13R?",
+    "answer": "A. Bathrooms less than 55 sq ft B. Closets less than 24 sq ft and least dimension under 3 feet C. Porches and balconies D. Attics and concealed spaces (NFPA 13R 2022 Edition, Section 6.4)",
+    "id": 107,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Lag screw size for 6\" pipe?",
+    "answer": "\u00bd inch (NFPA 13 2025 Edition, Table 18.5.9.1)",
+    "id": 108,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Length of hose in hose stations?",
+    "answer": "100 feet (NFPA 14 2022 Edition, Section 7.3.2)",
+    "id": 109,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "Sprinklers under skylights shall have what temperature rating?",
+    "answer": "Intermediate (NFPA 13 2025 Edition, Table 7.3.2.1)",
+    "id": 110,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "In attics, what is the maximum distance the heads can be out of center and what is the maximum distance vertically from the peak the heads can be?",
+    "answer": "Up to 3 ft off center (NFPA 13 2025 Edition, Section 12.1.1.3)",
+    "id": 111,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "In hotels and motels, NFPA 13 does not require heads in the closets when they meet what two provisions?",
+    "answer": "<24 sq ft and <3 ft dim (NFPA 13 2025 Edition, Section 9.5.5.13)",
+    "id": 112,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How often is lateral sway bracing needed for feed and cross mains?",
+    "answer": "Every 40 feet (NFPA 13 2025 Edition, Section 18.5.10.3)",
+    "id": 113,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Maximum distance after check valve that the FDC must be located?",
+    "answer": "No max specified (NFPA 13 2025 Edition, Section 16.12.3)",
+    "id": 114,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the spare sprinkler head schedule?",
+    "answer": "0-299 heads = 6 spare heads 300-999 heads = 12 spare heads 1000+ heads = 24 spare heads (NFPA 13 2025 Edition, Section 7.3.1)",
+    "id": 115,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How many manual and automatic starts are needed when performing acceptance testing of fire pump?",
+    "answer": "At least six (NFPA 20 2022 Edition, Section 14.2.5)",
+    "id": 116,
+    "tags": [
+      "NFPA 20"
+    ]
+  },
+  {
+    "question": "Minimum size of discharge on tank?",
+    "answer": "6\" but not <2\" (NFPA 22 2023 Edition, Section 5.3.1)",
+    "id": 117,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "What is the minimum distance required of a lintel to have it considered a compartment?",
+    "answer": "8 inches (NFPA 13 2025 Edition, Section 9.5.3.1.5)",
+    "id": 118,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What distance changes the spacing of sprinkler heads when dealing with vertical ceiling height changes?",
+    "answer": ">36\" equal space (NFPA 13 2025 Edition, Section 11.1.3)",
+    "id": 119,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What types of sprinkler heads can be used on dry systems?",
+    "answer": "Uprights, sidewalls no trap, listed dry, return bends (NFPA 13 2025 Edition, Section 8.4.8)",
+    "id": 120,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Dry systems air leakage allowed per week?",
+    "answer": "3 psi max loss in 24 hrs at 40 psi (NFPA 13 2025 Edition, Section 29.2.1.1)",
+    "id": 121,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum volume of an antifreeze loop?",
+    "answer": "None NFPA 13; 40 gal 13D/13R (NFPA 13 2025 Edition, Section 5.3.4)",
+    "id": 122,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Who invented pipe calculations?",
+    "answer": "Hazen Williams (Standard hydraulic method)",
+    "id": 123,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "How much weight should a hanger be able to support?",
+    "answer": "Water-filled +250 lbs (NFPA 13 2025 Edition, Section 18.1.1.2)",
+    "id": 124,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How many gauges are on a dry pipe system?",
+    "answer": "At least 2 (NFPA 13 2025 Edition, Section 16.13)",
+    "id": 125,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "How many heads do you calculate on an NFPA 13R type system?",
+    "answer": "Up to max four (NFPA 13R 2022 Edition, Section 11.2)",
+    "id": 126,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Light hazard small room rule is what?",
+    "answer": "Unobstructed <800 sq ft enclosed (NFPA 13 2025 Edition, Section 11.1.7)",
+    "id": 127,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Post indicator valves shall be located not less than how many feet from a building?",
+    "answer": "40 feet (NFPA 24 2022 Edition, Section 6.3.3)",
+    "id": 128,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "What is the universal code that deals with fire protection?",
+    "answer": "UFC, IBC, IFC (Various jurisdictions)",
+    "id": 129,
+    "tags": [
+      "General"
+    ]
+  },
+  {
     "question": "Minimum square feet of ESFR heads?",
-    "answer": "80 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 17.2.3.1",
+    "answer": "80 sq ft (NFPA 13 2025 Edition, Table 17.2.3.1)",
+    "id": 130,
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
-    "id": 132,
     "question": "What materials are left for the owner after job completion?",
-    "answer": [
-      "A copy of NFPA 25",
-      "data sheets",
-      "and instructions for proper operation and maintenance"
-    ],
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.6",
+    "answer": "A copy of NFPA 25, data sheets, and instructions for proper operation and maintenance (NFPA 13 2025 Edition, Section 29.6)",
+    "id": 131,
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "NFPA-25"
+      "NFPA 13",
+      "NFPA 25"
     ]
   },
   {
-    "id": 133,
     "question": "How much clearance is needed around pipe in a pump house that passes through walls?",
-    "answer": "1 inch",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.13",
+    "answer": "1 inch (NFPA 20 2022 Edition, Section 4.13)",
+    "id": 132,
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Piping"
+      "NFPA 20"
     ]
   },
   {
-    "id": 134,
     "question": "How many heads are allowed on branch lines on either side of a cross main?",
-    "answer": "8 heads max for light hazard",
-    "source": "NFPA 13 2025 Edition, Figure 11.1.1.2.1",
+    "answer": "8 max light hazard (NFPA 13 2025 Edition, Figure 11.1.1.2.1)",
+    "id": 133,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
-    "id": 135,
     "question": "How many heads are needed before an FDC is required?",
-    "answer": "20",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.12.1",
+    "answer": "20 (NFPA 13 2025 Edition, Section 16.12.1)",
+    "id": 134,
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
-    "id": 136,
     "question": "What is a manual standpipe system?",
-    "answer": "Relies on pressure boost from fire department pumper truck via FDC",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 3.3.18",
+    "answer": "Relies on pressure boost from fire department pumper truck via FDC (NFPA 14 2022 Edition, Section 3.3.18)",
+    "id": 135,
     "tags": [
-      "Fire-Pumps",
-      "NFPA-14",
-      "Piping",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 137,
     "question": "CPVC pipe and fittings should be protected against freezing with what type of system?",
-    "answer": "Glycerin",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.3.3.2",
+    "answer": "Glycerin (NFPA 13 2025 Edition, Section 5.3.3.2)",
+    "id": 136,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Materials",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
-    "id": 138,
     "question": "Post indicator valves shall be set so that the top of the post is how far above the final grade?",
-    "answer": "32-40\"",
-    "source": "Authority: NFPA, Document: NFPA 24 2022 Edition, Section: Section 6.3.3",
+    "answer": "32-40\" (NFPA 24 2022 Edition, Section 6.3.3)",
+    "id": 137,
     "tags": [
-      "NFPA-24",
-      "System-Components"
+      "General"
     ]
   },
   {
-    "id": 139,
     "question": "Class I and III standpipes shall be of at least what size?",
-    "answer": "4 inch",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 5.4.1",
+    "answer": "4 inch (NFPA 14 2022 Edition, Section 5.4.1)",
+    "id": 138,
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 14"
     ]
   },
   {
-    "id": 140,
     "question": "What is the standard procedure for a hydrostatic test?",
-    "answer": "200 psi or 50 psi over if >150 psi, 2 hours",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.2.1",
+    "answer": "200 psi or 50 psi over if >150 psi, 2 hours (NFPA 13 2025 Edition, Section 29.2.1)",
+    "id": 139,
     "tags": [
-      "NFPA-13"
+      "NFPA 13"
     ]
   },
   {
-    "id": 141,
     "question": "How many heads are needed on a system before supervision is required?",
-    "answer": "20 heads",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.9.3",
+    "answer": "20 heads (NFPA 13 2025 Edition, Section 16.9.3)",
+    "id": 140,
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
-    "id": 142,
     "question": "What is the largest pipe size that can have a threaded union installed on it?",
-    "answer": "2 inch",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.5",
+    "answer": "2 inch (NFPA 13 2025 Edition, Section 10.3.5)",
+    "id": 141,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
-    "id": 143,
     "question": "Unsupported length on the end of branch lines from the last hanger location for 1\u00bc\" pipe?",
-    "answer": "4 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
+    "answer": "4 feet (NFPA 13 2025 Edition, Section 18.5.5.2)",
+    "id": 142,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
-    "id": 144,
     "question": "What size of predrilled hole is needed for the lag screw?",
-    "answer": "1/16\" greater than diameter of bolt maximum",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.9.4",
+    "answer": "1/16\" greater than diameter of bolt maximum (NFPA 13 2025 Edition, Section 18.5.9.4)",
+    "id": 143,
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
-    "id": 145,
     "question": "What is the largest pipe size that can be hung from a toggle hanger?",
-    "answer": "1\u00bd\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.7.3",
+    "answer": "1\u00bd\" (NFPA 13 2025 Edition, Section 18.5.7.3)",
+    "id": 144,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
-    "id": 146,
     "question": "How often does an electric fire pump need to be operated at rated speed?",
-    "answer": "Annually",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 8.3.7",
+    "answer": "Annually (NFPA 25 2023 Edition, Section 8.3.7)",
+    "id": 145,
     "tags": [
-      "Fire-Pumps",
-      "NFPA-25"
+      "NFPA 25"
     ]
   },
   {
-    "id": 147,
     "question": "Maximum pressure of a 2\u00bd\" hose valve on a standpipe system?",
-    "answer": "175 psi",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.8.2",
+    "answer": "175 psi (NFPA 14 2022 Edition, Section 7.8.2)",
+    "id": 146,
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 148,
     "question": "Maximum gallons for a dry system?",
-    "answer": "750 gallons",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.1",
+    "answer": "750 gallons (NFPA 13 2025 Edition, Section 8.2.1)",
+    "id": 147,
     "tags": [
-      "NFPA-13",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
-    "id": 149,
     "question": "Trapped water less than 5 gallons, between 5 and 50 gallons, and greater than 50 gallons require what size auxiliary drain?",
-    "answer": {
-      "5 gal": "\u00bd\"",
-      "50": "1\""
-    },
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.5",
+    "answer": "<5 gal: \u00bd\"; 5-50: \u00be\"; >50: 1\" (NFPA 13 2025 Edition, Section 16.10.5)",
+    "id": 148,
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
-    "id": 150,
     "question": "Trapped water over 50 gallons requires what size of auxiliary drain?",
-    "answer": "No less than 1\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.5",
+    "answer": "No less than 1\" (NFPA 13 2025 Edition, Section 16.10.5)",
+    "id": 149,
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
-    "id": 151,
     "question": "Where does an FDC need to be located?",
-    "answer": "Street side and within 100 feet of a hydrant",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 6.4.5.4",
+    "answer": "Street side and within 100 feet of a hydrant (NFPA 14 2022 Edition, Section 6.4.5.4)",
+    "id": 150,
     "tags": [
-      "NFPA-14",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
-    "id": 152,
     "question": "Ordinary hazard, if your heads are located 12\u20196\" apart along the branch line, what is the maximum distance between the lines allowed?",
-    "answer": "10.4 feet",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.2.5.2",
+    "answer": "10.4 feet (NFPA 13 2025 Edition, Section 11.2.5.2)",
+    "id": 151,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 153,
     "question": "When tightening heads, in what direction should the arms of the sprinkler heads be?",
-    "answer": "Parallel with pipe",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.2",
+    "answer": "Parallel with pipe (NFPA 13 2025 Edition, Section 10.2.2)",
+    "id": 152,
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
-    "id": 154,
     "question": "What is the maximum sprinkler spacing for an extra hazard system?",
-    "answer": "Pipe schedule = 90 sq ft Density equal to and greater than .25 = 100 sq ft Density less than .25 = 130 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.3.1",
+    "answer": "Pipe schedule = 90 sq ft Density equal to and greater than .25 = 100 sq ft Density less than .25 = 130 sq ft (NFPA 13 2025 Edition, Section 11.3.1)",
+    "id": 153,
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
-    "id": 155,
     "question": "What is the maximum allowable distance between the ceiling and deflector below a non-combustible ceiling?",
-    "answer": "12 inches",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.5.2",
+    "answer": "12 inches (NFPA 13 2025 Edition, Section 10.2.5.2)",
+    "id": 154,
     "tags": [
-      "NFPA-13",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Hanger spacing for steel pipe",
+    "answer": "1\"/1\u00bc\":12'; 1\u00bd\"-8\":15' (NFPA 13 2025 Edition, Table 18.4.1(a))",
+    "id": 155,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "Hanger spacing for copper tube pipe",
+    "answer": "\u00be\"-1\":8'; 1\u00bc\"-1\u00bd\":10'; 2\"-3\":12'; 3.5\"-8\":15' (NFPA 13 2025 Edition, Table 18.4.1(b))",
     "id": 156,
-    "question": "Sidewall sprinkler head deflectors should be what distance down from the finished ceiling?",
-    "answer": "4\" to 6\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.6.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Hanger spacing for CPVC pipe",
+    "answer": "\u00be\":5'6\"; 1\":6'; 1\u00bc\":6'6\"; 1\u00bd\":7'; 2\":8'; 2\u00bd\":9'; 3\":10' (NFPA 13 2025 Edition, Table 18.4.1(c))",
     "id": 157,
-    "question": "What is the pressure requirement at the top of the standpipe?",
-    "answer": "100 psi",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 7.8.1",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "In hotels and motels, NFPA 13 does not require heads in the closets when they meet what two provisions?",
+    "answer": "Less than 24 sq ft and least dimension less than 3 feet (NFPA 13 2025 Edition, Section 9.5.5.13)",
     "id": 158,
-    "question": "How often should sprinkler heads be replaced in commercial type cooking equipment and ventilating systems?",
-    "answer": "Annually",
-    "source": "MN Fire Code 2020, Section 904.12.6.3",
     "tags": [
-      "Minnesota-Code",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Minimum size of discharge on tank?",
+    "answer": "6 inches in most cases but not less than 2\" (NFPA 22 2023 Edition, Section 5.3.1)",
     "id": 159,
-    "question": "What is the minimum spacing between an upright sprinkler head and a hanger rod?",
-    "answer": "3\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.11",
     "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers",
-      "Sprinklers-Spacing",
-      "Sprinklers-Types"
+      "General"
     ]
   },
   {
+    "question": "What distance changes the spacing of sprinkler heads when dealing with vertical ceiling height changes?",
+    "answer": ">36 inches heads must be equally spaced from both sides of the soffit (NFPA 13 2025 Edition, Section 11.1.3)",
     "id": 160,
-    "question": "On a plastic system, what is the minimum pipe size?",
-    "answer": "\u00be\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 6.3.1",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What types of sprinkler heads can be used on dry systems?",
+    "answer": "Uprights, sidewalls where water is not trapped, listed dry pendants & sidewalls, and pendants & sidewalls off return bends (NFPA 13 2025 Edition, Section 8.4.8)",
     "id": 161,
-    "question": "Maximum horizontal sprinkler head spacing for in-rack sprinklers?",
-    "answer": "Typically 12\u2019 and 8\u2019 for encapsulated storage",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 25.8",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum volume of an antifreeze loop?",
+    "answer": "None in NFPA 13, 40 gallons in NFPA 13D and NFPA 13R (NFPA 13 2025 Edition, Section 5.3.4)",
     "id": 162,
-    "question": "Pressure relief valves should be used on what type of system?",
-    "answer": "Gridded wet system",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.1.2",
     "tags": [
-      "NFPA-13",
-      "System-Components",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Who invented pipe calculations?",
+    "answer": "Hazen Williams (Standardhydraulic method)",
     "id": 163,
-    "question": "On a dry pipe valve, what is the ratio water to air?",
-    "answer": "5 to 6:1",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.3.7",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types"
+      "General"
     ]
   },
   {
+    "question": "How much weight should a hanger be able to support?",
+    "answer": "Water filled pipe plus 250 lbs (NFPA 13 2025 Edition, Section 18.1.1.2)",
     "id": 164,
-    "question": "On a 2500 gpm pump or smaller, what size automatic relief valve is required?",
-    "answer": "\u00be\" for pumps 2500 gpm and under and 1\" for larger pumps",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Table 4.48(a",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Piping-Dimensions",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "How many heads do you calculate on an NFPA 13R type system?",
+    "answer": "Up to a maximum of four (NFPA 13R 2022 Edition, Section 11.2)",
     "id": 165,
-    "question": "Controllers for fire pumps shall be mounted at least how far above the floor?",
-    "answer": "12\"",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 10.5.2.1",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Light hazard small room rule is what?",
+    "answer": "Unobstructed construction and an area of not more than 800 sq ft that is enclosed (NFPA 13 2025 Edition, Section 11.1.7)",
     "id": 166,
-    "question": "Fuel tanks for fire pumps shall have a capacity at least equal to what?",
-    "answer": "1 gallon per HP plus 5% volume for expansion plus 5% volume for sump",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 11.6.2",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "How many heads are allowed on branch lines on either side of a cross main?",
+    "answer": "8 heads max for light hazard (NFPA 13 2025 Edition, Figure 11.1.1.2.1)",
     "id": 167,
-    "question": "Sensing lines for fire pumps shall consist of what type and size of piping?",
-    "answer": [
-      "Brass",
-      "copper",
-      "or stainless steel \u00bd\""
-    ],
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.32",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Materials"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Sidewall sprinkler head deflectors should be what distance down from the finished ceiling?",
+    "answer": "4\" to 6\" (NFPA 13 2025 Edition, Section 10.3.6.1)",
     "id": 168,
-    "question": "What size rod is required for hanging 10 inch and 12 inch pipe?",
-    "answer": "\u215d\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.5.12.1",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the pressure requirement at the top of the standpipe?",
+    "answer": "100 psi (NFPA 14 2022 Edition, Section 7.8.1)",
     "id": 169,
-    "question": "Horizontal piping from a standpipe to hose valve shall require a hanger at what length?",
-    "answer": "18 inches",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 9.1.3",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support",
-      "System-Components"
+      "NFPA 14"
     ]
   },
   {
+    "question": "How often should sprinkler heads be replaced in commercial type cooking equipment and ventilating systems?",
+    "answer": "Annually (MN Fire Code 2020, Section 904.12.6.3)",
     "id": 170,
-    "question": "Standpipes that are part of a combined system shall be at least what pipe size?",
-    "answer": "4\" for completely sprinkled buildings otherwise 6\"",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 5.4.1.2",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Dimensions"
+      "General"
     ]
   },
   {
+    "question": "What is the minimum spacing between an upright sprinkler head and a hanger rod?",
+    "answer": "3\" (NFPA 13 2025 Edition, Section 18.5.5.11)",
     "id": 171,
-    "question": "Size of drain required for a 2\u00bd\" standpipe?",
-    "answer": "1\u00bc\"",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Table 6.3.1.1",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "On a plastic system, what is the minimum pipe size?",
+    "answer": "\u00be\" (NFPA 13 2025 Edition, Section 6.3.1)",
     "id": 172,
-    "question": "In trenches cut through rock, what is the required tamped backfill under and around the pipe and how much above the pipe?",
-    "answer": "6\" under/around; 2 ft above",
-    "source": "Authority: NFPA, Document: NFPA 24 2022 Edition, Section: Section 10.9",
     "tags": [
-      "NFPA-24",
-      "Piping"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Maximum horizontal sprinkler head spacing for in-rack sprinklers?",
+    "answer": "Typically 12\u2019 and 8\u2019 for encapsulated storage (NFPA 13 2025 Edition, Section 25.8)",
     "id": 173,
-    "question": "What type of heads are required if water temperature exceeds 100\u00b0F?",
-    "answer": "Intermediate or high temperature",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Pressure relief valves should be used on what type of system?",
+    "answer": "Gridded wet system (NFPA 13 2025 Edition, Section 8.1.2)",
     "id": 174,
-    "question": "Sprinklers in rack shall discharge not less than how many psi for all classes of commodities?",
-    "answer": "15 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4.6.5",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "On a dry pipe valve, what is the ratio water to air?",
+    "answer": "5 to 6:1 (NFPA 13 2025 Edition, Section 8.2.3.7)",
     "id": 175,
-    "question": "Tread tire storage piles regardless of storage method shall not exceed how many feet in the direction of wheel holes?",
-    "answer": "Varies by arrangement",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 25.9",
     "tags": [
-      "NFPA-13"
+      "NFPA 13"
     ]
   },
   {
+    "question": "On a 2500 gpm pump or smaller, what size automatic relief valve is required?",
+    "answer": "\u00be\" for pumps 2500 gpm and under and 1\" for larger pumps (NFPA 20 2022 Edition, Table 4.48(a))",
     "id": 176,
-    "question": "A minimum of how many inches shall be maintained between the sprinkler deflector and the top of a tier of storage?",
-    "answer": "18\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 11.1.4",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 20"
     ]
   },
   {
+    "question": "Controllers for fire pumps shall be mounted at least how far above the floor?",
+    "answer": "12\" (NFPA 20 2022 Edition, Section 10.5.2.1)",
     "id": 177,
-    "question": "Pendant and upright sprinklers for residential application shall be positioned so that the deflectors are within how many inches from the ceiling?",
-    "answer": "1\" to 4\"",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 10.3.3",
     "tags": [
-      "NFPA-13D",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 20"
     ]
   },
   {
+    "question": "Fuel tanks for fire pumps shall have a capacity at least equal to what?",
+    "answer": "1 gallon per HP plus 5% volume for expansion plus 5% volume for sump (NFPA 20 2022 Edition, Section 11.6.2)",
     "id": 178,
-    "question": "For a water storage tank, the distance between the floor and any part of the tank shall be at least how many feet?",
-    "answer": "2 feet",
-    "source": "Authority: NFPA, Document: NFPA 22 2023 Edition, Section: Section 4.3",
     "tags": [
-      "NFPA-22",
-      "Sprinklers-Spacing",
-      "Water-Supply"
+      "NFPA 20"
     ]
   },
   {
+    "question": "Sensing lines for fire pumps shall consist of what type and size of piping?",
+    "answer": "Brass, copper, or stainless steel \u00bd\" (NFPA 20 2022 Edition, Section 4.32)",
     "id": 179,
-    "question": "In light hazard, how many heads are allowed off 1\u00bd\" pipe?",
-    "answer": "5 sprinkler heads",
-    "source": "NFPA 13 2025 Edition, Schedule",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Sprinklers"
+      "NFPA 20"
     ]
   },
   {
+    "question": "What size rod is required for hanging 10 inch and 12 inch pipe?",
+    "answer": "\u215d\" (NFPA 13 2025 Edition, Table 18.5.12.1)",
     "id": 180,
-    "question": "On a dry pipe valve with a 5 to 1 ratio and system psi of 75, what pressure will the valve trip at?",
-    "answer": "15 psi",
-    "source": "Calculation per NFPA 13 2025 Edition, Section 8.2.3.7",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Horizontal piping from a standpipe to hose valve shall require a hanger at what length?",
+    "answer": "18 inches (NFPA 14 2022 Edition, Section 9.1.3)",
     "id": 181,
-    "question": "A relief valve on a dry system located between the compressor and control valve shall be set at _______ psi in excess of maximum air pressure in the system?",
-    "answer": "10 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.1.2.2",
     "tags": [
-      "NFPA-13",
-      "System-Components",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
+    "question": "Standpipes that are part of a combined system shall be at least what pipe size?",
+    "answer": "4\" for completely sprinkled buildings otherwise 6\" (NFPA 14 2022 Edition, Section 5.4.1.2)",
     "id": 182,
-    "question": "System components shall not be rated less than _________ psi for aboveground components and _________ psi for underground components?",
-    "answer": "175 psi, 150 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 6.1.1",
     "tags": [
-      "NFPA-13"
+      "NFPA 14"
     ]
   },
   {
+    "question": "Size of drain required for a 2\u00bd\" standpipe?",
+    "answer": "1\u00bc\" (NFPA 14 2022 Edition, Table 6.3.1.1)",
     "id": 183,
-    "question": "Maximum operating pressure for extra hazard, palletized, solid piled, in bin box, and on shelf storage?",
-    "answer": "175 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4.3",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
+    "question": "In trenches cut through rock, what is the required tamped backfill under and around the pipe and how much above the pipe?",
+    "answer": "6\" under/around; 2 ft above (NFPA 24 2022 Edition, Section 10.9)",
     "id": 184,
-    "question": "Minimum operating pressure of an in-rack sprinkler head?",
-    "answer": "15 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 27.2.4.6.5",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Water-Supply"
+      "General"
     ]
   },
   {
+    "question": "What type of heads are required if water temperature exceeds 100\u00b0F?",
+    "answer": "Intermediate or high temperature (NFPA 13 2025 Edition, Table 7.3.2.1)",
     "id": 185,
-    "question": "Hours required for MN Test",
-    "answer": "8000",
-    "source": "MN Statutes 299M",
     "tags": [
-      "Minnesota-Code"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Sprinklers in rack shall discharge not less than how many psi for all classes of commodities?",
+    "answer": "15 psi (NFPA 13 2025 Edition, Section 27.2.4.6.5)",
     "id": 186,
-    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems.",
-    "answer": "13",
-    "source": "NFPA 13 2025 Edition",
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Tread tire storage piles regardless of storage method shall not exceed how many feet in the direction of wheel holes?",
+    "answer": "Varies by arrangement (NFPA 13 2025 Edition, Section 25.9)",
     "id": 187,
-    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems in One- and Two-Family Dwellings and Manufactured Homes.",
-    "answer": "13D",
-    "source": "NFPA 13D 2022 Edition",
     "tags": [
-      "Installation",
-      "NFPA-13D",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "A minimum of how many inches shall be maintained between the sprinkler deflector and the top of a tier of storage?",
+    "answer": "18\" (NFPA 13 2025 Edition, Section 11.1.4)",
     "id": 188,
-    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems in Low-Rise Residential Occupancies.",
-    "answer": "13R",
-    "source": "NFPA 13R 2022 Edition",
     "tags": [
-      "Installation",
-      "NFPA-13R",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Pendant and upright sprinklers for residential application shall be positioned so that the deflectors are within how many inches from the ceiling?",
+    "answer": "1\" to 4\" (NFPA 13D 2022 Edition, Section 10.3.3)",
     "id": 189,
-    "question": "NFPA __ is the Standard for the Installation of Standpipes and Hose Systems.",
-    "answer": "14",
-    "source": "NFPA 14 2022 Edition",
     "tags": [
-      "Installation",
-      "NFPA-14",
-      "Piping"
+      "NFPA 13"
     ]
   },
   {
+    "question": "For a water storage tank, the distance between the floor and any part of the tank shall be at least how many feet?",
+    "answer": "2 feet (NFPA 22 2023 Edition, Section 4.3)",
     "id": 190,
-    "question": "NFPA __ is the Standard for the Installation of Private Fire Hydrants.",
-    "answer": "24",
-    "source": "NFPA 24 2022 Edition",
     "tags": [
-      "Installation",
-      "NFPA-24",
-      "Water-Supply"
+      "General"
     ]
   },
   {
+    "question": "In light hazard, how many heads are allowed off 1\u00bd\" pipe?",
+    "answer": "5 sprinkler heads (NFPA 13 2025 Edition, Schedule)",
     "id": 191,
-    "question": "NFPA __ is the Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems.",
-    "answer": "25",
-    "source": "NFPA 25 2023 Edition",
     "tags": [
-      "Installation",
-      "NFPA-25"
+      "NFPA 13"
     ]
   },
   {
+    "question": "On a dry pipe valve with a 5 to 1 ratio and system psi of 75, what pressure will the valve trip at?",
+    "answer": "15 psi (Calculation per NFPA 13 2025 Edition, Section 8.2.3.7)",
     "id": 192,
-    "question": "NFPA __ is the Standard for the Installation of Stationary Pumps for Fire Protection.",
-    "answer": "20",
-    "source": "NFPA 20 2022 Edition",
     "tags": [
-      "Fire-Pumps",
-      "Installation",
-      "NFPA-20"
+      "NFPA 13"
     ]
   },
   {
+    "question": "A relief valve on a dry system located between the compressor and control valve shall be set at _______ psi in excess of maximum air pressure in the system?",
+    "answer": "10 psi (NFPA 13 2025 Edition, Section 8.1.2.2)",
     "id": 193,
-    "question": "NFPA __ is the Standard for Water Tanks for Private Fire Protection.",
-    "answer": "22",
-    "source": "NFPA 22 2023 Edition",
     "tags": [
-      "NFPA-22",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "System components shall not be rated less than _________ psi for aboveground components and _________ psi for underground components?",
+    "answer": "175 psi, 150 psi (NFPA 13 2025 Edition, Section 6.1.1)",
     "id": 194,
-    "question": "NFPA __ is the National Fire Alarm and Signaling Code.",
-    "answer": "72",
-    "source": "NFPA 72 2024 Edition",
     "tags": [
-      "NFPA-72"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Maximum operating pressure for extra hazard, palletized, solid piled, in bin box, and on shelf storage?",
+    "answer": "175 psi (NFPA 13 2025 Edition, Section 27.2.4.3)",
     "id": 195,
-    "question": "NFPA __ is the Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations.",
-    "answer": "96",
-    "source": "NFPA 96 2024 Edition",
     "tags": [
-      "NFPA-96"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Minimum operating pressure of an in-rack sprinkler head?",
+    "answer": "15 psi (NFPA 13 2025 Edition, Section 27.2.4.6.5)",
     "id": 196,
-    "question": "NFPA __ is the Standard for Wet Chemical Extinguishing Systems.",
-    "answer": "17A",
-    "source": "NFPA 17A 2024 Edition",
     "tags": [
-      "NFPA-17A",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Hours required for MN Test",
+    "answer": "8000 (MN Statutes 299M)",
     "id": 197,
-    "question": "Class ___ standpipe: 2\u00bd\" connections FD use",
-    "answer": "Class I",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 4.1.1",
     "tags": [
-      "NFPA-14",
-      "Piping"
+      "General"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems.",
+    "answer": "13 (NFPA 13 2025 Edition)",
     "id": 198,
-    "question": "Class ___ standpipe: 1\u00bd\" connections occupant",
-    "answer": "Class II",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 4.1.2",
     "tags": [
-      "NFPA-14",
-      "Piping"
+      "NFPA 13"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems in One- and Two-Family Dwellings and Manufactured Homes.",
+    "answer": "13D (NFPA 13D 2022 Edition)",
     "id": 199,
-    "question": "Class ___ standpipe: Both 1\u00bd\"/2\u00bd\"",
-    "answer": "Class III",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 4.1.3",
     "tags": [
-      "NFPA-14",
-      "Piping"
+      "NFPA 13"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Sprinkler Systems in Low-Rise Residential Occupancies.",
+    "answer": "13R (NFPA 13R 2022 Edition)",
     "id": 200,
-    "question": "If fire pump suction pipe is perpendicular to fire pump and the pipe is 8 inch pipe, how far does the pump suction flange have to be from the elbow?",
-    "answer": "80 inches  (NFPA 20 2022 Edition, Section 4.15.3.3)",
-    "source": "10x diameter",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Standpipes and Hose Systems.",
+    "answer": "14 (NFPA 14 2022 Edition)",
     "id": 201,
-    "question": "Per NFPA 13 2016 if you have to use a heat collector because the sprinkler is too far down from the deck it needs to be _____ inches below the deck.",
-    "answer": "Not Allowed",
-    "source": "NFPA 13 2025 Edition, no provision",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 14"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Private Fire Hydrants.",
+    "answer": "24 (NFPA 24 2022 Edition)",
     "id": 202,
-    "question": "The discharge pipe of a fire pump is bigger than the discharge flange of the fire pump. Which fitting is needed to make the change?",
-    "answer": "Concentric Reducer",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 4.15.6.4",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "Piping",
-      "System-Components"
+      "General"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems.",
+    "answer": "25 (NFPA 25 2023 Edition)",
     "id": 203,
-    "question": "In the types of system listed below, which one is not ok with a paddle type water flow switch installed?",
-    "answer": "Dry System",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 17.17.1",
     "tags": [
-      "NFPA-13",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 25"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for the Installation of Stationary Pumps for Fire Protection.",
+    "answer": "20 (NFPA 20 2022 Edition)",
     "id": 204,
-    "question": "Wet pipe systems shall only be installed in areas where the temperature is maintained at ______ degrees at its lowest point.",
-    "answer": "40\u00b0F",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.4.1",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Sprinklers-Spacing",
-      "Sprinklers-Temperature",
-      "System-Types"
+      "NFPA 20"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for Water Tanks for Private Fire Protection.",
+    "answer": "22 (NFPA 22 2023 Edition)",
     "id": 205,
-    "question": "It is an acceptable practice to install a paddle-type water flow switch on the bottom of a horizontal main?",
-    "answer": "No",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 17.17.1.3",
     "tags": [
-      "NFPA-13",
-      "Water-Supply"
+      "General"
     ]
   },
   {
+    "question": "NFPA __ is the National Fire Alarm and Signaling Code.",
+    "answer": "72 (NFPA 72 2024 Edition)",
     "id": 206,
-    "question": "Upright sprinklers on pipes _____ inch or larger must be placed on sprigs or offset from the pipe to eliminate the obstruction.",
-    "answer": "3 inches",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.5.4",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "General"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations.",
+    "answer": "96 (NFPA 96 2024 Edition)",
     "id": 207,
-    "question": "When installing upright sprinklers in a branch line piping system, the frame arms of the sprinkler shall be lined up _______ with the branch line as to eliminate an obstruction.",
-    "answer": "Parallel",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.6",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "General"
     ]
   },
   {
+    "question": "NFPA __ is the Standard for Wet Chemical Extinguishing Systems.",
+    "answer": "17A (NFPA 17A 2024 Edition)",
     "id": 208,
-    "question": "True or False. Jockey pumps, jockey control valves, and jockey check valves are not required to be listed for fire protection use.",
-    "answer": "False",
-    "source": "Authority: NFPA, Document: NFPA 20 2022 Edition, Section: Section 10.3.4",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-20",
-      "System-Components"
+      "General"
     ]
   },
   {
+    "question": "Class ___ standpipe: 2\u00bd\" connections FD use",
+    "answer": "Class I (NFPA 14 2022 Edition, Section 4.1.1)",
     "id": 209,
-    "question": "All wet systems that do not contain an air reservoir must have a listed relief valve installed in the system. The relief valve must be set to relieve pressure at 175 psi or _____ psi above maximum system pressure.",
-    "answer": "10 psi",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.1.2",
     "tags": [
-      "NFPA-13",
-      "System-Components",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
+    "question": "Class ___ standpipe: 1\u00bd\" connections occupant",
+    "answer": "Class II (NFPA 14 2022 Edition, Section 4.1.2)",
     "id": 210,
-    "question": "In a dry system where the capacity of trapped section of pipe is 5 gallons or less, the auxiliary drain shall consist of a valve ___ inch or larger, nipple and cap?",
-    "answer": "1/2 inch",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.5.3",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types"
+      "NFPA 14"
     ]
   },
   {
+    "question": "Class ___ standpipe: Both 1\u00bd\"/2\u00bd\"",
+    "answer": "Class III (NFPA 14 2022 Edition, Section 4.1.3)",
     "id": 211,
-    "question": "In a dry system where the capacity of trapped section of pipe is more than 5 gallons, the auxiliary drain shall consist of two 1 inch valves and one ___ inch nipple.",
-    "answer": "Condensate \u00be\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.16.2.5.3",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components",
-      "System-Types"
+      "NFPA 14"
     ]
   },
   {
+    "question": "If fire pump suction pipe is perpendicular to fire pump and the pipe is 8 inch pipe, how far does the pump suction flange have to be from the elbow?",
+    "answer": "80 inches (10x diameter) (NFPA 20 2022 Edition, Section 4.15.3.3)",
     "id": 212,
-    "question": "Although using tie in drains on a dry system is essentially making a gridded dry system, it is allowed as long as the pipe is ___ inch size and is pitched at a 1/2 inch per 10 feet?",
-    "answer": "1 inch",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.16.2.5.4",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "System-Types"
+      "NFPA 20"
     ]
   },
   {
+    "question": "Per NFPA 13 2016 if you have to use a heat collector because the sprinkler is too far down from the deck it needs to be _____ inches below the deck.",
+    "answer": "Not Allowed (NFPA 13 2025 Edition, no provision)",
     "id": 213,
-    "question": "When installing a dry system and performing the final acceptance test, the system needs to be air pressure tested at 40 psi for ___ hours?",
-    "answer": "24 hours",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 29.2.1.1",
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "The discharge pipe of a fire pump is bigger than the discharge flange of the fire pump. Which fitting is needed to make the change?",
+    "answer": "Concentric Reducer (NFPA 20 2022 Edition, Section 4.15.6.4)",
     "id": 214,
-    "question": "Residential sprinklers have a different discharge pattern than standard spray sprinkler. They are required to wet the wall within ___ inches of the ceiling?",
-    "answer": "28 inches",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 6.2.4",
     "tags": [
-      "NFPA-13D",
-      "Sprinklers",
-      "Sprinklers-Types",
-      "System-Types"
+      "NFPA 20"
     ]
   },
   {
+    "question": "In the types of system listed below, which one is not ok with a paddle type water flow switch installed?",
+    "answer": "Dry System (NFPA 13 2025 Edition, Section 17.17.1)",
     "id": 215,
-    "question": "Per MN state fire marshal, Central oring sprinklers do not have to be changed as long as they are installed in systems with high pressures. True or False.",
-    "answer": "False",
-    "source": "MN Fire Code 2020, Section 903.3.1",
     "tags": [
-      "Minnesota-Code",
-      "Sprinklers",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Wet pipe systems shall only be installed in areas where the temperature is maintained at ______ degrees at its lowest point.",
+    "answer": "40\u00b0F (NFPA 13 2025 Edition, Section 5.4.1)",
     "id": 216,
-    "question": "A sprinkler system employing open sprinklers would be classified as what type of system?",
-    "answer": "Deluge",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 3.3.15",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "It is an acceptable practice to install a paddle-type water flow switch on the bottom of a horizontal main?",
+    "answer": "No (NFPA 13 2025 Edition, Section 17.17.1.3)",
     "id": 217,
-    "question": "The larger the air bubble in an glass bulb sprinkler, the _______ it takes before the sprinkler activates?",
-    "answer": "longer time",
-    "source": "NFPA 13 2025 Edition, A.7.4",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Upright sprinklers on pipes _____ inch or larger must be placed on sprigs or offset from the pipe to eliminate the obstruction.",
+    "answer": "3 inches (NFPA 13 2025 Edition, Section 10.3.5.4)",
     "id": 218,
-    "question": "What is the maximum width of an obstruction before you need to add a sprinkler under the obstruction on an ESFR system?",
-    "answer": "4 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 14.2.4.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing upright sprinklers in a branch line piping system, the frame arms of the sprinkler shall be lined up _______ with the branch line as to eliminate an obstruction.",
+    "answer": "Parallel (NFPA 13 2025 Edition, Section 10.2.6)",
     "id": 219,
-    "question": "Where ESFR sprinkler are installed adjacent to sprinkler system with standard-response sprinklers, a draft curtain of noncombustible construction and at least ___ in depth is required.",
-    "answer": "2 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 12.1.1.3.9",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "True or False. Jockey pumps, jockey control valves, and jockey check valves are not required to be listed for fire protection use.",
+    "answer": "False (NFPA 20 2022 Edition, Section 10.3.4)",
     "id": 220,
-    "question": "When installing sprinklers in the area of a hanging heater, what type sprinklers must be installed in a 7 foot circle around the heater?",
-    "answer": "high",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 20"
     ]
   },
   {
+    "question": "All wet systems that do not contain an air reservoir must have a listed relief valve installed in the system. The relief valve must be set to relieve pressure at 175 psi or _____ psi above maximum system pressure.",
+    "answer": "10 psi (NFPA 13 2025 Edition, Section 8.1.2)",
     "id": 221,
-    "question": "When installing sprinklers in an area with a hanging heater, a cone shape area of 20 feet from center of unit, going with the blower of the heater must be what type sprinklers?",
-    "answer": "intermediate",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "In a dry system where the capacity of trapped section of pipe is 5 gallons or less, the auxiliary drain shall consist of a valve ___ inch or larger, nipple and cap?",
+    "answer": "1/2 inch (NFPA 13 2025 Edition, Section 16.10.5.3)",
     "id": 222,
-    "question": "What is the maximum square footage of any one standard spray sprinkler is ___?",
-    "answer": "225 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "In a dry system where the capacity of trapped section of pipe is more than 5 gallons, the auxiliary drain shall consist of two 1 inch valves and one ___ inch nipple.",
+    "answer": "Condensate \u00be\" (NFPA 13 2025 Edition, Section 8.16.2.5.3)",
     "id": 223,
-    "question": "If installing a sprinkler system in a building with less than 300 sprinklers how many sprinklers shall be installed in spare sprinkler cabinet?",
-    "answer": "6",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.1.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Although using tie in drains on a dry system is essentially making a gridded dry system, it is allowed as long as the pipe is ___ inch size and is pitched at a 1/2 inch per 10 feet?",
+    "answer": "1 inch (NFPA 13 2025 Edition, Section 8.16.2.5.4)",
     "id": 224,
-    "question": "When installing a sprinkler system with over 300 sprinklers but less than 1000 sprinklers how many sprinkler shall be installed in the spare sprinkler cabinet?",
-    "answer": "12",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.1.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing a dry system and performing the final acceptance test, the system needs to be air pressure tested at 40 psi for ___ hours?",
+    "answer": "24 hours (NFPA 13 2025 Edition, Section 29.2.1.1)",
     "id": 225,
-    "question": "When installing a sprinkler system with over 1,000 sprinkler how many sprinklers shall be installed in the spare sprinkler cabinet?",
-    "answer": "24",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.1.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Residential sprinklers have a different discharge pattern than standard spray sprinkler. They are required to wet the wall within ___ inches of the ceiling?",
+    "answer": "28 inches (NFPA 13D 2022 Edition, Section 6.2.4)",
     "id": 226,
-    "question": "When installing a sprinkler system, a list of spare sprinklers left on site needs to be left on site in the spare head cabinet. Which item does not have to be on this list?",
-    "answer": "location",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.4.1.5",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Per MN state fire marshal, Central oring sprinklers do not have to be changed as long as they are installed in systems with high pressures. True or False.",
+    "answer": "False (MN Fire Code 2020, Section 903.3.1)",
     "id": 227,
-    "question": "FDC piping of 4\" or larger requires that the FDC connection have two inlets on it. If the piping of the FDC is ____ or smaller one outlet is satisfactory?",
-    "answer": "3\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.12.3",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Components"
+      "General"
     ]
   },
   {
+    "question": "A sprinkler system employing open sprinklers would be classified as what type of system?",
+    "answer": "Deluge (NFPA 13 2025 Edition, Section 3.3.15)",
     "id": 228,
-    "question": "Per NFPA 13 what is the maximum time water can flow without tripping the flow switch?",
-    "answer": "5 minutes",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 17.17",
     "tags": [
-      "NFPA-13",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "The larger the air bubble in an glass bulb sprinkler, the _______ it takes before the sprinkler activates?",
+    "answer": "longer time (NFPA 13 2025 Edition, A.7.4)",
     "id": 229,
-    "question": "Per NFPA 72 what is the maximum time water can flow before the flow switch goes into alarm?",
-    "answer": "90 seconds",
-    "source": "Authority: NFPA, Document: NFPA 72 2024 Edition, Section: Section 17.13.2",
     "tags": [
-      "NFPA-72",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum width of an obstruction before you need to add a sprinkler under the obstruction on an ESFR system?",
+    "answer": "4 ft (NFPA 13 2025 Edition, Section 14.2.4.2)",
     "id": 230,
-    "question": "If you have to install 3 dry systems in a building, and all 3 systems share an air compressor, how many air maintenance devices need to be installed?",
-    "answer": "3",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.3.2",
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Where ESFR sprinkler are installed adjacent to sprinkler system with standard-response sprinklers, a draft curtain of noncombustible construction and at least ___ in depth is required.",
+    "answer": "2 ft (NFPA 13 2025 Edition, Section 12.1.1.3.9)",
     "id": 231,
-    "question": "What is the maximum number of sprinklers that can be installed on any one pre action system?",
-    "answer": "1000",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.3.2.9",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing sprinklers in the area of a hanging heater, what type sprinklers must be installed in a 7 foot circle around the heater?",
+    "answer": "high (NFPA 13 2025 Edition, Table 7.3.2.1)",
     "id": 232,
-    "question": "What is the maximum size building that one system can cover in light or ordinary hazard buildings?",
-    "answer": "52,000 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 5.2",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing sprinklers in an area with a hanging heater, a cone shape area of 20 feet from center of unit, going with the blower of the heater must be what type sprinklers?",
+    "answer": "intermediate (NFPA 13 2025 Edition, Table 7.3.2.1)",
     "id": 233,
-    "question": "What type of sprinklers are required in skylights?",
-    "answer": "Intermediate",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.3.2.1",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum square footage of any one standard spray sprinkler is ___?",
+    "answer": "225 sq ft (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
     "id": 234,
-    "question": "A sprinkler with blue liquid in the bulb would discharge at what temperature?",
-    "answer": "225-300\u00b0F",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.2.4.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
+      "NFPA 13"
     ]
   },
   {
+    "question": "If installing a sprinkler system in a building with less than 300 sprinklers how many sprinklers shall be installed in spare sprinkler cabinet?",
+    "answer": "6 (NFPA 13 2025 Edition, Table 7.3.1.3)",
     "id": 235,
-    "question": "A glass bulb sprinkler with red liquid in the bulb would be what temperature?",
-    "answer": "135-170\u00b0F",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 7.2.4.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Temperature"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing a sprinkler system with over 300 sprinklers but less than 1000 sprinklers how many sprinkler shall be installed in the spare sprinkler cabinet?",
+    "answer": "12 (NFPA 13 2025 Edition, Table 7.3.1.3)",
     "id": 236,
-    "question": "When measuring the distance from a metal pan deck to the sprinkler, measure from the low part of the pan unless the pan is ____ or larger then you would measure to the upper part of the pan.",
-    "answer": "3 inches",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.6.1.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing a sprinkler system with over 1,000 sprinkler how many sprinklers shall be installed in the spare sprinkler cabinet?",
+    "answer": "24 (NFPA 13 2025 Edition, Table 7.3.1.3)",
     "id": 237,
-    "question": "With Standard spray sprinklers obstructions to discharge over ____ wide require sprinklers to be installed under the obstruction",
-    "answer": "4 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 13.2.8.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When installing a sprinkler system, a list of spare sprinklers left on site needs to be left on site in the spare head cabinet. Which item does not have to be on this list?",
+    "answer": "location (NFPA 13 2025 Edition, Section 5.4.1.5)",
     "id": 238,
-    "question": "If an obstruction is over 4 ft wide requiring sprinklers be installed under the obstruction, it is acceptable to add sprinklers next to the obstruction as long as the sprinkler is within ____ from the outside edge of the obstruction?",
-    "answer": "3 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 13.2.8.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "FDC piping of 4\" or larger requires that the FDC connection have two inlets on it. If the piping of the FDC is ____ or smaller one outlet is satisfactory?",
+    "answer": "3\" (NFPA 13 2025 Edition, Section 16.12.3)",
     "id": 239,
-    "question": "Skylight under ____ sq ft are not required to have sprinklers installed?",
-    "answer": "32",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.3.16",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Per NFPA 13 what is the maximum time water can flow without tripping the flow switch?",
+    "answer": "5 minutes (NFPA 13 2025 Edition, Section 17.17)",
     "id": 240,
-    "question": "Skylights under _______ ft from another unprotected skylight require sprinklers?",
-    "answer": "10",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.3.16",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Per NFPA 72 what is the maximum time water can flow before the flow switch goes into alarm?",
+    "answer": "90 seconds (NFPA 72 2024 Edition, Section 17.13.2)",
     "id": 241,
-    "question": "What is the maximum area that a sprinkler can protect?",
-    "answer": "400 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "General"
     ]
   },
   {
+    "question": "If you have to install 3 dry systems in a building, and all 3 systems share an air compressor, how many air maintenance devices need to be installed?",
+    "answer": "3 (NFPA 13 2025 Edition, Section 8.3.3.2)",
     "id": 242,
-    "question": "What is the maximum square footage that a standard spray sprinkler can be spaced in a light hazard occupancy?",
-    "answer": "225 sq ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum number of sprinklers that can be installed on any one pre action system?",
+    "answer": "1000 (NFPA 13 2025 Edition, Section 8.3.2.9)",
     "id": 243,
-    "question": "What is the maximum square footage of a standard spray sprinkler in an ordinary hazard occupancy?",
-    "answer": "130",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum size building that one system can cover in light or ordinary hazard buildings?",
+    "answer": "52,000 sq ft (NFPA 13 2025 Edition, Section 5.2)",
     "id": 244,
-    "question": "What is the minimum distance a sprinkler head can be to the wall?",
-    "answer": "4 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.5.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What type of sprinklers are required in skylights?",
+    "answer": "Intermediate (NFPA 13 2025 Edition, Table 7.3.2.1)",
     "id": 245,
-    "question": "What is the minimum distance a standard sprinkler head can be to another sprinkler head?",
-    "answer": "6 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.5.4",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "A sprinkler with blue liquid in the bulb would discharge at what temperature?",
+    "answer": "225-300\u00b0F (NFPA 13 2025 Edition, Table 7.2.4.1)",
     "id": 246,
-    "question": "What is the maximum distance a sprinkler head shall be down from the deck in an unobstructed construction building?",
-    "answer": "1 to 12 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.2.6.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "A glass bulb sprinkler with red liquid in the bulb would be what temperature?",
+    "answer": "135-170\u00b0F (NFPA 13 2025 Edition, Table 7.2.4.1)",
     "id": 247,
-    "question": "Ceiling fans ___ inches in diameter are required to be considered an obstruction?",
-    "answer": "60",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 13.2.9.1",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "When measuring the distance from a metal pan deck to the sprinkler, measure from the low part of the pan unless the pan is ____ or larger then you would measure to the upper part of the pan.",
+    "answer": "3 inches (NFPA 13 2025 Edition, Section 10.2.6.1.3)",
     "id": 248,
-    "question": "Storage on shelves in closets and other storage arrangements must be maintained ___ sq ft in size?",
-    "answer": "18 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "With Standard spray sprinklers obstructions to discharge over ____ wide require sprinklers to be installed under the obstruction",
+    "answer": "4 ft (NFPA 13 2025 Edition, Section 13.2.8.2)",
     "id": 249,
-    "question": "Ceiling pockets do not require sprinklers unless they are over ___ cubic foot in size?",
-    "answer": "1000",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 9.3.17",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "If an obstruction is over 4 ft wide requiring sprinklers be installed under the obstruction, it is acceptable to add sprinklers next to the obstruction as long as the sprinkler is within ____ from the outside edge of the obstruction?",
+    "answer": "3 in (NFPA 13 2025 Edition, Section 13.2.8.3)",
     "id": 250,
-    "question": "Standard horizontal sidewall sprinklers shall be located 4 inches to ___ inches below the deck?",
-    "answer": "6",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.4.1",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Skylight under ____ sq ft are not required to have sprinklers installed?",
+    "answer": "32 (NFPA 13 2025 Edition, Section 9.3.16)",
     "id": 251,
-    "question": "In light hazard occupancies - In the same room with horizontal sidewall sprinklers across from each other, how long can the room be before sprinklers need to be added?",
-    "answer": "24 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 10.3.3",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Skylights under _______ ft from another unprotected skylight require sprinklers?",
+    "answer": "10 (NFPA 13 2025 Edition, Section 9.3.16)",
     "id": 252,
-    "question": "Each fire sprinkler system is required to have an indicating control valve, which one of the valves listed below is not an indicating valve?",
-    "answer": "Ball valve",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.9.3",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum area that a sprinkler can protect?",
+    "answer": "400 sq ft (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
     "id": 253,
-    "question": "True or False. Backflow preventers can replace check valves on the sprinkler system if required?",
-    "answer": "True",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.15.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum square footage that a standard spray sprinkler can be spaced in a light hazard occupancy?",
+    "answer": "225 sq ft (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
     "id": 254,
-    "question": "If system pressure can exceed 175 psi, a pressure reducing valve is required with a pressure relief valve not smaller than ___ attached to the system side of the pressure reducing valve?",
-    "answer": "1/2 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.11",
     "tags": [
-      "NFPA-13",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum square footage of a standard spray sprinkler in an ordinary hazard occupancy?",
+    "answer": "130 (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
     "id": 255,
-    "question": "Post indicating valves must have the top of the valve located ___ above the final grade?",
-    "answer": "32-40 inches",
-    "source": "Authority: NFPA, Document: NFPA 24 2022 Edition, Section: Section 6.3.3",
     "tags": [
-      "NFPA-24",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum distance a sprinkler head can be to the wall?",
+    "answer": "4 in (NFPA 13 2025 Edition, Section 10.2.5.2)",
     "id": 256,
-    "question": "Installation of ___ or fewer sprinklers, installed in a rack, being supplied by the overhead sprinkler system do not require a separate control valve to be installed?",
-    "answer": "20",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 25.9.4",
     "tags": [
-      "Installation",
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum distance a standard sprinkler head can be to another sprinkler head?",
+    "answer": "6 ft (NFPA 13 2025 Edition, Section 10.2.5.4)",
     "id": 257,
-    "question": "What is the minimum size drain you are allowed for a system size of 2\" or less?",
-    "answer": "3/4\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.3",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance a sprinkler head shall be down from the deck in an unobstructed construction building?",
+    "answer": "1 to 12 in (NFPA 13 2025 Edition, Section 10.2.6.1)",
     "id": 258,
-    "question": "What is the minimum size drain you're allowed on a 2 1/2\" to 3\" sprinkler system?",
-    "answer": "1 1/4\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.3",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Ceiling fans ___ inches in diameter are required to be considered an obstruction?",
+    "answer": "60 (NFPA 13 2025 Edition, Section 13.2.9.1)",
     "id": 259,
-    "question": "What is the minimum size drain you're allowed on a 4 inch or larger sprinkler system?",
-    "answer": "2\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.3",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Storage on shelves in closets and other storage arrangements must be maintained ___ sq ft in size?",
+    "answer": "18 in (NFPA 13 2025 Edition, Section 9.5.5.2)",
     "id": 260,
-    "question": "Trapped section of pipe on a wet system exceeds 50 gallons, what is the minimum size auxiliary drain allowed?",
-    "answer": "1\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.10.5",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Ceiling pockets do not require sprinklers unless they are over ___ cubic foot in size?",
+    "answer": "1000 (NFPA 13 2025 Edition, Section 9.3.17)",
     "id": 261,
-    "question": "What is the minimum size writing allowed on a FDC informational sign?",
-    "answer": "1\"",
-    "source": "MN Fire Code 2020, Section 912.5",
     "tags": [
-      "Minnesota-Code",
-      "Piping-Dimensions",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Standard horizontal sidewall sprinklers shall be located 4 inches to ___ inches below the deck?",
+    "answer": "6 (NFPA 13 2025 Edition, Section 10.3.4.1)",
     "id": 262,
-    "question": "All sprinkler systems are required to have a system pressure gauge with a minimum connection of what?",
-    "answer": "1/4\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.13",
     "tags": [
-      "NFPA-13",
-      "Sprinklers",
-      "System-Components",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "In light hazard occupancies - In the same room with horizontal sidewall sprinklers across from each other, how long can the room be before sprinklers need to be added?",
+    "answer": "24 ft (NFPA 13 2025 Edition, Section 10.3.3)",
     "id": 263,
-    "question": "What is the maximum length of a flex drop before it has to be supported?",
-    "answer": "6 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.4.8.3",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Each fire sprinkler system is required to have an indicating control valve, which one of the valves listed below is not an indicating valve?",
+    "answer": "Ball valve (NFPA 13 2025 Edition, Section 16.9.3)",
     "id": 264,
-    "question": "What is the maximum size pipe you can support with drilling holes in the metal pan ceiling?",
-    "answer": "1 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.7.4",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "True or False. Backflow preventers can replace check valves on the sprinkler system if required?",
+    "answer": "True (NFPA 13 2025 Edition, Section 16.15.2)",
     "id": 265,
-    "question": "What is the maximum size pipe you can hang with toggle bolts in sheetrock?",
-    "answer": "1 1/2\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.7.3",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "If system pressure can exceed 175 psi, a pressure reducing valve is required with a pressure relief valve not smaller than ___ attached to the system side of the pressure reducing valve?",
+    "answer": "1/2 in (NFPA 13 2025 Edition, Section 16.11)",
     "id": 266,
-    "question": "What is the maximum length of a branch line starter piece without a hanger?",
-    "answer": "6 ft",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.6",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Post indicating valves must have the top of the valve located ___ above the final grade?",
+    "answer": "32-40 inches (NFPA 24 2022 Edition, Section 6.3.3)",
     "id": 267,
-    "question": "What is the maximum distance allowed from the end of a 1\" branch line to the last hanger?",
-    "answer": "36 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "General"
     ]
   },
   {
+    "question": "Installation of ___ or fewer sprinklers, installed in a rack, being supplied by the overhead sprinkler system do not require a separate control valve to be installed?",
+    "answer": "20 (NFPA 13 2025 Edition, Section 25.9.4)",
     "id": 268,
-    "question": "What is the maximum distance allowed from the last hanger to the end of a 1 1/4 inch line?",
-    "answer": "48 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum size drain you are allowed for a system size of 2\" or less?",
+    "answer": "3/4\" (NFPA 13 2025 Edition, Section 16.10.3)",
     "id": 269,
-    "question": "What is the maximum distance allowed from the end of a 1 1/2 inch branch line or larger and the last hanger?",
-    "answer": "60 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum size drain you're allowed on a 2 1/2\" to 3\" sprinkler system?",
+    "answer": "1 1/4\" (NFPA 13 2025 Edition, Section 16.10.3)",
     "id": 270,
-    "question": "What is the maximum distance allowed from the end of a 1\" copper line and the last hanger?",
-    "answer": "18 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum size drain you're allowed on a 4 inch or larger sprinkler system?",
+    "answer": "2\" (NFPA 13 2025 Edition, Section 16.10.3)",
     "id": 271,
-    "question": "What is the maximum distance allowed from the end of a 1 1/4 inch copper line and the last hanger?",
-    "answer": "24 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Trapped section of pipe on a wet system exceeds 50 gallons, what is the minimum size auxiliary drain allowed?",
+    "answer": "1\" (NFPA 13 2025 Edition, Section 16.10.5)",
     "id": 272,
-    "question": "What is the maximum distance allowed from the end of a 1 1/2 inch or larger copper line and the last hanger?",
-    "answer": "30 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.2",
     "tags": [
-      "NFPA-13",
-      "Piping-Materials",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the minimum size writing allowed on a FDC informational sign?",
+    "answer": "1\" (MN Fire Code 2020, Section 912.5)",
     "id": 273,
-    "question": "What is the maximum unsupported length of any arm over if the system pressure is under 100 psi?",
-    "answer": "24 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.9",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Piping-Support",
-      "Water-Supply"
+      "General"
     ]
   },
   {
+    "question": "All sprinkler systems are required to have a system pressure gauge with a minimum connection of what?",
+    "answer": "1/4\" (NFPA 13 2025 Edition, Section 16.13)",
     "id": 274,
-    "question": "What is the maximum unsupported length of arm over if the system pressure exceeds 100 psi?",
-    "answer": "12 in",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 18.5.5.9",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "Piping-Support",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum length of a flex drop before it has to be supported?",
+    "answer": "6 ft (NFPA 13 2025 Edition, Section 18.4.8.3)",
     "id": 275,
-    "question": "What is the maximum length between hangers for 1 inch sch 40 pipe?",
-    "answer": "12 ft )",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum size pipe you can support with drilling holes in the metal pan ceiling?",
+    "answer": "1 in (NFPA 13 2025 Edition, Section 18.5.7.4)",
     "id": 276,
-    "question": "What the maximum spacing between hanger on 1 1/2 inch thin wall pipe?",
-    "answer": "12 ft )",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum size pipe you can hang with toggle bolts in sheetrock?",
+    "answer": "1 1/2\" (NFPA 13 2025 Edition, Section 18.5.7.3)",
     "id": 277,
-    "question": "What the maximum spacing of hangers on 1 1/2 inch or larger sch 40 pipe?",
-    "answer": "15 ft )",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum length of a branch line starter piece without a hanger?",
+    "answer": "6 ft (NFPA 13 2025 Edition, Section 18.5.5.6)",
     "id": 278,
-    "question": "What the maximum spacing of hangers on 1 1/2 inch or larger thinwall pipe?",
-    "answer": "15 ft )",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.1(a",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Support",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the end of a 1\" branch line to the last hanger?",
+    "answer": "36 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 279,
-    "question": "Standpipes shall be supported at the following points?",
-    "answer": "Lowest level and every other floor",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 9.1.1",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the last hanger to the end of a 1 1/4 inch line?",
+    "answer": "48 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 280,
-    "question": "What size pipe is required for a pipe stand that will support 10\" pipe?",
-    "answer": "2\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 18.4.10.1",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Support"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the end of a 1 1/2 inch branch line or larger and the last hanger?",
+    "answer": "60 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 281,
-    "question": "FDC connections shall be located between ___ and ___ inches above finished ground?",
-    "answer": "18 and 48",
-    "source": "MN Fire Code 2020, Section 912.2.2",
     "tags": [
-      "Minnesota-Code",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the end of a 1\" copper line and the last hanger?",
+    "answer": "18 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 282,
-    "question": "At what pitch is a ceiling no longer considered sloped?",
-    "answer": "\u22642/12",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 3.3.22",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the end of a 1 1/4 inch copper line and the last hanger?",
+    "answer": "24 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 283,
-    "question": "After a dry system has been in service for 3 years, and for every 3 years after, it\u2019s required to have an air test. This can be accomplished in two ways. Either 40 psi for 2 hours and it is allowed to lose 3 psi, or at system working pressure for 4 hours and system cannot go into low air condition?",
-    "answer": "40 psi 24 hrs \u22643 psi loss",
-    "source": "Authority: NFPA, Document: NFPA 25 2023 Edition, Section: Section 13.5.1.3",
     "tags": [
-      "NFPA-25",
-      "System-Types",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum distance allowed from the end of a 1 1/2 inch or larger copper line and the last hanger?",
+    "answer": "30 in (NFPA 13 2025 Edition, Section 18.5.5.2)",
     "id": 284,
-    "question": "When a pump is receiving suction supply from a tank, what is the name of the plate at the bottom of the tank that stabilizes the stream?",
-    "answer": "anti-vortex plate",
-    "source": "Authority: NFPA, Document: NFPA 22 2023 Edition, Section: Section 8.4",
     "tags": [
-      "Fire-Pumps",
-      "NFPA-22",
-      "Water-Supply"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum unsupported length of any arm over if the system pressure is under 100 psi?",
+    "answer": "24 in (NFPA 13 2025 Edition, Section 18.5.5.9)",
     "id": 285,
-    "question": "The anti-vortex plate must be installed \u00bd the diameter of the pipe or ___ inches off the bottom, whichever is greater?",
-    "answer": "6",
-    "source": "Authority: NFPA, Document: NFPA 22 2023 Edition, Section: Section 8.4",
     "tags": [
-      "NFPA-22",
-      "Piping",
-      "Piping-Dimensions"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum unsupported length of arm over if the system pressure exceeds 100 psi?",
+    "answer": "12 in (NFPA 13 2025 Edition, Section 18.5.5.9)",
     "id": 286,
-    "question": "Sprinklers subject to mechanical injury shall be protected with _______ guards?",
-    "answer": "Listed",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 7.4.2",
     "tags": [
-      "NFPA-13",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What is the maximum length between hangers for 1 inch sch 40 pipe?",
+    "answer": "12 ft (NFPA 13 2025 Edition, Table 18.4.1(a))",
     "id": 287,
-    "question": "The minimum amount of time that a control valve can be closed is?",
-    "answer": "5 sec",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.9.5.2",
     "tags": [
-      "NFPA-13",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What the maximum spacing between hanger on 1 1/2 inch thin wall pipe?",
+    "answer": "12 ft (NFPA 13 2025 Edition, Table 18.4.1(a))",
     "id": 288,
-    "question": "What is the maximum size system you are allowed with a single FDC outlet?",
-    "answer": "3\"",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 16.12.3",
     "tags": [
-      "NFPA-13",
-      "Piping-Dimensions",
-      "System-Components"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What the maximum spacing of hangers on 1 1/2 inch or larger sch 40 pipe?",
+    "answer": "15 ft (NFPA 13 2025 Edition, Table 18.4.1(a))",
     "id": 289,
-    "question": "If an airline feeding a dry or pre-action system must run through the freezer, you must leave a removable piece of 1\" pipe a minimum of __ feet long for internal inspection.",
-    "answer": "6",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 8.2.3.3",
     "tags": [
-      "NFPA-13",
-      "Piping",
-      "System-Types"
+      "NFPA 13"
     ]
   },
   {
+    "question": "What the maximum spacing of hangers on 1 1/2 inch or larger thinwall pipe?",
+    "answer": "15 ft (NFPA 13 2025 Edition, Table 18.4.1(a))",
     "id": 290,
-    "question": "The minimum size pipe allowed in a dwelling unit for a sprinkler system is __ for steel pipe and 3/4\" for plastic pipe.",
-    "answer": "1\" steel, \u00be\" plastic",
-    "source": "Authority: NFPA, Document: NFPA 13D 2022 Edition, Section: Section 6.4",
     "tags": [
-      "NFPA-13D",
-      "Piping",
-      "Piping-Dimensions",
-      "Piping-Materials",
-      "Sprinklers"
+      "NFPA 13"
     ]
   },
   {
+    "question": "Standpipes shall be supported at the following points?",
+    "answer": "Lowest level and every other floor (NFPA 14 2022 Edition, Section 9.1.1)",
     "id": 291,
-    "question": "What is the maximum distance a standpipe can be from a hydrant?",
-    "answer": "100 ft",
-    "source": "Authority: NFPA, Document: NFPA 14 2022 Edition, Section: Section 6.4.5.4",
     "tags": [
-      "NFPA-14",
-      "Piping",
-      "Sprinklers-Spacing",
-      "Water-Supply"
+      "NFPA 14"
     ]
   },
   {
+    "question": "What size pipe is required for a pipe stand that will support 10\" pipe?",
+    "answer": "2\" (NFPA 13 2025 Edition, Table 18.4.10.1)",
     "id": 292,
-    "question": "A small room is a compartment having unobstructed construction and a floor area not exceeding _____ sq. ft.",
-    "answer": "800",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Section 3.3.199",
     "tags": [
-      "NFPA-13",
-      "Sprinklers-Spacing"
+      "NFPA 13"
     ]
   },
   {
+    "question": "FDC connections shall be located between ___ and ___ inches above finished ground?",
+    "answer": "18 and 48 (MN Fire Code 2020, Section 912.2.2)",
     "id": 293,
-    "question": "The maximum protection area of a standard spray sprinkler in an ordinary hazard occupancy is ______ sq. ft.",
-    "answer": "130",
-    "source": "Authority: NFPA, Document: NFPA 13 2025 Edition, Section: Table 11.2.3.1.2",
     "tags": [
-      "Hazard-Classification",
-      "NFPA-13",
-      "Sprinklers",
-      "Sprinklers-Spacing"
+      "General"
+    ]
+  },
+  {
+    "question": "At what pitch is a ceiling no longer considered sloped?",
+    "answer": "\u22642/12 (NFPA 13 2025 Edition, Section 3.3.22)",
+    "id": 294,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "After a dry system has been in service for 3 years, and for every 3 years after, it\u2019s required to have an air test. This can be accomplished in two ways. Either 40 psi for 2 hours and it is allowed to lose 3 psi, or at system working pressure for 4 hours and system cannot go into low air condition?",
+    "answer": "40 psi 24 hrs \u22643 psi loss (NFPA 25 2023 Edition, Section 13.5.1.3)",
+    "id": 295,
+    "tags": [
+      "NFPA 25"
+    ]
+  },
+  {
+    "question": "When a pump is receiving suction supply from a tank, what is the name of the plate at the bottom of the tank that stabilizes the stream?",
+    "answer": "anti-vortex plate (NFPA 22 2023 Edition, Section 8.4)",
+    "id": 296,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "The anti-vortex plate must be installed \u00bd the diameter of the pipe or ___ inches off the bottom, whichever is greater?",
+    "answer": "6 (NFPA 22 2023 Edition, Section 8.4)",
+    "id": 297,
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "question": "Sprinklers subject to mechanical injury shall be protected with _______ guards?",
+    "answer": "Listed (NFPA 13 2025 Edition, Section 7.4.2)",
+    "id": 298,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "The minimum amount of time that a control valve can be closed is?",
+    "answer": "5 sec (NFPA 13 2025 Edition, Section 16.9.5.2)",
+    "id": 299,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum size system you are allowed with a single FDC outlet?",
+    "answer": "3\" (NFPA 13 2025 Edition, Section 16.12.3)",
+    "id": 300,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "If an airline feeding a dry or pre-action system must run through the freezer, you must leave a removable piece of 1\" pipe a minimum of __ feet long for internal inspection.",
+    "answer": "6 (NFPA 13 2025 Edition, Section 8.2.3.3)",
+    "id": 301,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "The minimum size pipe allowed in a dwelling unit for a sprinkler system is __ for steel pipe and 3/4\" for plastic pipe.",
+    "answer": "1\" steel, \u00be\" plastic (NFPA 13D 2022 Edition, Section 6.4)",
+    "id": 302,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "What is the maximum distance a standpipe can be from a hydrant?",
+    "answer": "100 ft (NFPA 14 2022 Edition, Section 6.4.5.4)",
+    "id": 303,
+    "tags": [
+      "NFPA 14"
+    ]
+  },
+  {
+    "question": "A small room is a compartment having unobstructed construction and a floor area not exceeding _____ sq. ft.",
+    "answer": "800 (NFPA 13 2025 Edition, Section 3.3.199)",
+    "id": 304,
+    "tags": [
+      "NFPA 13"
+    ]
+  },
+  {
+    "question": "The maximum protection area of a standard spray sprinkler in an ordinary hazard occupancy is ______ sq. ft.",
+    "answer": "130 (NFPA 13 2025 Edition, Table 11.2.3.1.2)",
+    "id": 305,
+    "tags": [
+      "NFPA 13"
     ]
   }
 ]

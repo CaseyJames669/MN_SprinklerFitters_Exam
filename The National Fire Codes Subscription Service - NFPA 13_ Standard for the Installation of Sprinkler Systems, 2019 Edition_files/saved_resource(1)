@@ -1,0 +1,470 @@
+
+function ckieRLSckoo(name) {
+    var dckie = document.cookie;
+    var prefix = name + "=";
+    var ckie_begin = dckie.indexOf("; " + prefix);
+    if (ckie_begin == -1) {
+        ckie_begin = dckie.indexOf(prefix);
+        if (ckie_begin != 0) return null;
+    }
+    else {
+       ckie_begin += 2;
+    }
+    ckie_end = document.cookie.indexOf(";", ckie_begin);
+    if (ckie_end == -1) {
+        ckie_end = dckie.length;
+    }
+    return decodeURI(dckie.substring(ckie_begin + prefix.length, ckie_end));
+}
+  
+function neustar_response(score) {
+    (function(d, script) {
+        script = d.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.onload = function(){
+            // remote script has loaded
+        };
+        var myckie = ckieRLSckoo("smartDashLRX");
+        if (myckie == null) {
+            var cookieName = "smartDashLRX";
+            var cookieValue = score;
+            var expirationTime = 2592000;
+            expirationTime = expirationTime * 1000;
+            var ns_date = new Date();
+            var dateTimeNow = ns_date.getTime();
+            ns_date.setTime(dateTimeNow + expirationTime);
+            var ns_date = ns_date.toUTCString();
+            document.cookie = cookieName+"="+cookieValue+"; SameSite=None; Secure; expires="+ns_date+"; path=/; domain=." + location.hostname.replace(/^www\./i, "");
+        }
+
+        
+
+        d.getElementsByTagName('head')[0].appendChild(script);
+    }(document));
+}
+
+var myCookie = ckieRLSckoo("smartDash");
+var mrkl = "5775_04622";
+var liveintent = "1";
+var lcid = "11046";
+var aimedia_pixel = "0";
+var aimedia_site_id = "None";
+var aimedia_u = "None";
+var aimedia_aiid = "None";
+var aimedia_domain = "None";
+var bdex_pixel = "0";
+
+function setLSCookie() {
+    var ck_dt = new Date().getTime();
+    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var ck_r = (ck_dt + Math.random()*16)%16 | 0;
+        ck_dt = Math.floor(ck_dt/16);
+        return (c=='x' ? ck_r :(ck_r&0x3|0x8)).toString(16);
+    });
+    var cookieName = "smartDash";
+    var cookieValue = uuid;
+    var expirationTime = 2592000 * 2;
+    expirationTime = expirationTime * 1000;
+    var ck_date = new Date();
+    var dateTimeNow = ck_date.getTime();
+    ck_date.setTime(dateTimeNow + expirationTime);
+    var ck_date_string = ck_date.toUTCString();
+    document.cookie = cookieName+"="+cookieValue+"; SameSite=None; Secure; expires="+ck_date_string+"; path=/; domain=." + location.hostname.replace(/^www\./i, "");
+
+    return cookieValue
+}
+
+if (myCookie == null) {
+    const newCookieValue = setLSCookie();
+
+    if (bdex_pixel == '1') {
+        bdexPixel(newCookieValue)
+    }
+} else {
+    if (bdex_pixel == '1') {
+        bdexPixel()
+    }
+}
+
+function neustar_script(d) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.onload = function(){
+        // remote script has loaded
+    };
+    script.src = 'https://aa.agkn.com/adscores/g.js?sid=9212306938&cv1='+ckieRLSckoo('smartDash');
+    d.getElementsByTagName('head')[0].appendChild(script);
+}
+
+//nstr
+(function(d, script) {
+    neustar_script(d)
+}(document));
+
+
+function resonatePixel() {
+    const  pixel_tag = "<img src='https://ds.reson8.com/insights.gif?rand=%5BRANDOM_NUMBER%5D&evkey=101174872' width='1' height='1' />"
+    // Create the image element
+    var resonate_img = document.createElement('img');
+    resonate_img.src = 'https://ds.reson8.com/insights.gif?rand=%5BRANDOM_NUMBER%5D&evkey=101174872';
+    resonate_img.width = 1;
+    resonate_img.height = 1;
+
+    // Append the image element to the body (or any other container)
+    document.body.appendChild(resonate_img);
+}
+
+function appendAdsrvrScripts() {
+    // Create the first script element
+    var script1 = document.createElement('script');
+    script1.src = 'https://js.adsrvr.org/up_loader.1.1.0.js';
+    script1.type = 'text/javascript';
+
+    // Append the first script to the head
+    document.head.appendChild(script1);
+
+    let now_ts = Date.now()
+
+    // Create the second script element
+    var script2 = document.createElement('script');
+    script2.type = 'text/javascript';
+    script2.innerHTML = `
+        ttd_dom_ready(function() {
+            if (typeof TTDUniversalPixelApi === 'function') {
+                var universalPixelApi = new TTDUniversalPixelApi();
+                universalPixelApi.init("jdpdf14", ["yc8utz8"], "https://insight.adsrvr.org/track/up?ttd_id=%%TTD_TDID%%&cb=${now_ts}");
+            }
+        });
+    `;
+
+    // Append the second script to the head
+    document.head.appendChild(script2);
+}
+
+// maybe move into below event listener
+if (window.OpenId) {
+} else {
+	window.OpenID = {
+            getIds: function(data) {
+            window._TTDId = data.TDID;
+		}
+	};
+}
+
+window.getTTDId = function() {
+	return window._TTDId;
+};
+
+function loadScriptAsync(src) {
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.async = true;
+        script.onload = () => {
+            resolve();
+        };
+        script.onerror = () => {
+            reject(new Error(`Failed to load script: ${src}`));
+        };
+        document.head.appendChild(script);
+  });
+}
+
+function lsTagSecondCall(d) {
+    // Usage example
+    let gaCookieValue = getCookieValue('_ga');
+    let svsidCookieValue = getCookieValue('_svsid');
+
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.onload = function(){
+        // remote script has loaded
+    };
+    const furl = btoa(window.location.href);
+    let browser_language = navigator.language;
+    script.src = 'https://ghs4.safevisit.online/?lcid=11046&ncookie='+ckieRLSckoo('smartDash')+'&furl='+furl+'&lang='+browser_language+'&ga='+gaCookieValue+'&svsid='+svsidCookieValue;
+
+    if (aimedia_pixel == 1) {
+        let aimedia_cookie = getCookieValue('_ai_id');
+        script.src = script.src + '&aiid='+aimedia_cookie;
+    }
+
+    if (lcid == "11124") {
+        var ttdUrl = 'https://match.adsrvr.org/track/rid?v=1.0.0&ttd_pid=i6t6mlg&type=javascript';
+		loadScriptAsync(ttdUrl).then(() => {
+			var tradedesk_id = window.getTTDId();
+			if (tradedesk_id) {
+				script.src = script.src + '&tdid='+tradedesk_id;
+				d.getElementsByTagName('head')[0].appendChild(script);
+			}
+			else {}
+		}).catch((error) => {
+			console.error(error);
+		});
+    } else {
+		d.getElementsByTagName('head')[0].appendChild(script);
+	}
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+	if (lcid == "11124") {
+		// // Create the first script element
+		// var script1 = document.createElement('script');
+		// script1.src = 'https://js.adsrvr.org/up_loader.1.1.0.js';
+		// script1.type = 'text/javascript'; 
+
+		// // Add an event listener to detect when the script is loaded
+		// script1.addEventListener('load', function() {
+		// 	if (typeof TTDUniversalPixelApi === 'function') {
+		// 		var universalPixelApi = new TTDUniversalPixelApi();
+		// 		universalPixelApi.init("jdpdf14", ["yc8utz8"], "https://insight.adsrvr.org/track/up");
+		// 	}
+		// });
+
+		// // Append the first script to the head
+		// document.head.appendChild(script1);
+
+        //LS second tag call
+        lsTagSecondCall(document)
+	}
+});
+
+// bdex
+function bdexPixel(newCookieValue) {
+    const cookieValue = ckieRLSckoo("smartDash")
+
+    // JavaScript code as a string
+    const pixelCode = `var pixel_kwargs=pixel_kwargs||{}; pixel_kwargs.client_id='a4760026-5aa4-49a4-a411-3819f36630bc', pixel_kwargs.site_id='0c6fb967-08e0-460d-a5e0-87b087e9b671', pixel_kwargs.lcid='${lcid}', pixel_kwargs.ls_cookie='${newCookieValue ? newCookieValue : cookieValue}', pixel_kwargs.ls_timestamp='${Date.now()}',  pixel_kwargs.skip_3rd_party=!0, function(){var e=document.createElement('script'); e.type='text/javascript', e.async=!0, e.crossOrigin=!0, e.src='https://static.zxywv.com/whm/assets/pixel.js'; var a=document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(e,a)}();`;
+
+    // Create a new <script> element
+    const scriptElement = document.createElement("script");
+    scriptElement.type = "text/javascript";
+
+    // Set the code string as the content of the script element
+    scriptElement.textContent = pixelCode;
+
+    // Append the script to the document (e.g., head or body)
+    document.head.appendChild(scriptElement);
+}
+
+(function(d, script) {
+    // resonate 11048
+    if (lcid == "11048") {
+        resonatePixel()
+    }
+
+    if (lcid == "11124") {
+        // appendAdsrvrScripts()
+    }
+}(document));
+
+
+
+function getCookieValue(name) {
+    let nameEQ = name + "=";
+    let all_cookies = document.cookie.split(';');
+    for(let i = 0; i < all_cookies.length; i++) {
+        let ls_cookie = all_cookies[i].trim();
+        if (ls_cookie.indexOf(nameEQ) == 0) {
+            return ls_cookie.substring(nameEQ.length, ls_cookie.length);
+        }
+    }
+    // Return null if the cookie with the specified name was not found
+    return null;
+}
+//Set ecommerce data vars
+var ecommerce_order_id;
+var ecommerce_order_revenue;
+var ecommerce_products;
+
+//Check for ecommerce purchase data in dataLayer
+function isEcommercePurchase() {
+	if (window.dataLayer && window.dataLayer.length > 0) {
+		for (let i = 0; i < window.dataLayer.length; i++) {
+			const dl = window.dataLayer[i];
+			if (dl.ecommerce?.purchase?.actionField?.id) {
+				//set value for ecommerce data vars
+				ecommerce_order_id = dl.ecommerce.purchase.actionField.id;
+				ecommerce_order_revenue = dl.ecommerce.purchase.actionField.revenue || 0;
+				ecommerce_products = dl.ecommerce.purchase?.products || [];
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+function addAIMediaConversionScript() {
+    var _paq = window._paq = window._paq || [];
+    var atrilyx_order_id = 'online_'+ecommerce_order_id;
+    for(i=0;i<ecommerce_products.length;i++) {
+        _paq.push([
+            'addEcommerceItem',
+            ecommerce_products[i].id || ecommerce_products[i].sku || ecommerce_products[i].item_id,
+            ecommerce_products[i].name || ecommerce_products[i].item_name || "",
+            ecommerce_products[i].category || ecommerce_products[i].item_category || "",
+            ecommerce_products[i].price || "",
+            ecommerce_products[i].quantity || ""
+        ]);
+    }
+    _paq.push(['AiMediaGroupExtension::addEcommerceLabel', '4']);
+    _paq.push([
+        'trackEcommerceOrder',
+        atrilyx_order_id,
+        ecommerce_order_revenue,
+        false
+    ]);
+}
+
+function addAdsrvrConversionImg(amt,oid) {
+	// Create the image element
+    var adsrvr_img = document.createElement('img');
+    adsrvr_img.src = 'https://insight.adsrvr.org/track/pxl/?adv=jdpdf14&ct=0:h4u5pc3&fmt=3&v='+amt+'&orderid='+oid;
+    adsrvr_img.width = 1;
+    adsrvr_img.height = 1;
+    // Append the second script to the head
+    document.head.appendChild(adsrvr_img);
+}
+if (aimedia_pixel == 1) {
+    const lsEcommercePurchase = isEcommercePurchase();
+    if (lsEcommercePurchase && lcid == "11124") {
+            // addAIMediaConversionScript();
+            // addAdsrvrConversionImg(ecommerce_order_revenue,ecommerce_order_id);
+    }
+}
+    
+//LS
+(function(d, script) {
+    lsTagSecondCall(d, script)
+}(document));
+
+
+function merkleCollectDataLayer() {
+    window._svq = window._svq || [];
+    window._svq.push(['_setCustomVar', 'sv_smartdash', ckieRLSckoo('smartDash')]);
+    window._svq.push(['_trackPageView']);
+    (function (d, c) {
+    var mrkl_sv=d.createElement(c); mrkl_sv.type='text/javascript';
+    mrkl_sv.src='//track.sv.rkdms.com/js/sv.js?sv_cid=5775_04622&sv_origin=nfpa.org';
+    var tag_elem=d.getElementsByTagName(c)[0]; 
+    tag_elem.parentNode.insertBefore(mrkl_sv, tag_elem);
+    })(document, 'script');
+
+    window.addEventListener('_svdatalayer_ready', function(e) {
+        var event_data = e.detail;
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+        };
+
+        if (event_data.hmid) {
+            fetch("https://ghs4.safevisit.online/mrkl?hmid="+event_data.hmid+"&em="+event_data.email_key+"&lcid=11046&ncookie="+ckieRLSckoo('smartDash')+"&conf="+event_data.confidence_score, requestOptions)
+                .then(response => response.text())
+                .catch(error => console.error('error', error));
+            }
+    });
+}    
+
+function addMerkelScript(document) {
+    window._svq = window._svq || [];
+    window._svq.push(['_setCustomVar', 'sv_smartdash', ckieRLSckoo('smartDash')]);
+    window._svq.push(['_trackPageView']);
+
+    (function (d, c) {
+        var sv=d.createElement(c); sv.type='text/javascript';
+        sv.src='//track.sv.rkdms.com/js/sv.js?sv_cid=5775_04622&sv_origin=nfpa.org';
+        var tag_elem=d.getElementsByTagName(c)[0]; 
+        tag_elem.parentNode.insertBefore(sv, tag_elem);
+    })(document, 'script');
+}
+
+//mrkl
+if (mrkl == '0') {
+
+}
+else if (lcid == '11132') {
+    merkleCollectDataLayer();
+}
+else {
+    addMerkelScript(document)
+}
+
+function addLiveintentScript() {
+    window.liQd_did_004t = window.liQd_did_004t || [];
+    var scriptTag = document.createElement('script');
+    scriptTag.src = 'https://d-code.liadm.com/did-004t.min.js';
+    scriptTag['onload'] = function(e) {
+    window.liQd_did_004t.resolve(function(result) { if
+    (result) {
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+          };
+          
+          fetch("https://ghs4.safevisit.online/nonid?id="+result.nonId+"&md="+result.md5+"&sh="+result.sha2+"&lcid=11046&ncookie="+ckieRLSckoo('smartDash'), requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+    }; }, function(err) { 
+        if (
+            window.location.hostname !== 'localhost' ||
+            window.location.hostname !== '127.0.0.1' ||
+            window.location.hostname !== '::1'
+        )
+            console.error(err); 
+    },
+    {resolve: ["nonId", "md5", "sha2"]}); 
+    }
+    document.head.appendChild(scriptTag);
+}
+
+//liveintent
+if (liveintent == '1') {
+    addLiveintentScript()
+}
+
+
+function addAIMediaScript() {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['AiMediaGroupExtension::set_organic_aiid', aimedia_aiid]);
+    _paq.push(['AiMediaGroupExtension::set_proxy', aimedia_u]);
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setDomains", [aimedia_domain]]);
+    _paq.push(['setCookieDomain',aimedia_domain]);
+    _paq.push(["enableCrossDomainLinking"]);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['trackPageView']);
+    (function() {
+        _paq.push(['setTrackerUrl', 'https://'+aimedia_u+'/matomo.php']);
+        _paq.push(['setSiteId', aimedia_site_id]);
+        var d=document, aimedia_g=d.createElement('script'), aimedia_s=d.getElementsByTagName('script')[0];
+        aimedia_g.type='text/javascript'; aimedia_g.async=true; aimedia_g.src='https://'+aimedia_u+'/matomo.js'; aimedia_s.parentNode.insertBefore(aimedia_g,aimedia_s);
+    })();
+}
+
+
+if (aimedia_pixel == 1) {
+   addAIMediaScript()
+}
+
+
+if (typeof module === 'object') {
+    module.exports = { 
+        ckieRLSckoo, 
+        neustar_response, 
+        merkleCollectDataLayer, 
+        setLSCookie, 
+        neustar_script, 
+        resonatePixel, 
+        getCookieValue, 
+        lsTagSecondCall, 
+        addMerkelScript, 
+        addLiveintentScript, 
+        addAIMediaScript,
+        appendAdsrvrScripts,
+        bdexPixel
+    };
+}
