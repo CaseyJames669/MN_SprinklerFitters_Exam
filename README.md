@@ -104,7 +104,7 @@ The study material is primarily sourced from the following standards:
 
 ## Future Improvements
 
-- **Update NotebookLM and Quizlet listings**: Ensure these platforms are using the latest `Grok4 applied corrections.json` dataset.
+- **Update Quizlet listings**: Ensure these platforms are using the latest `Grok4 applied corrections.json` dataset.
 - **Web Interface for Data Exploration**: Create a simple web application to browse, search, and filter the Q&A dataset.
 - **Automated Data Validation and Cleaning**: Implement a more robust data validation pipeline to automatically detect and flag inconsistencies.
 - **Expand the Dataset with More Sources**: Incorporate additional fire protection standards, such as those from the International Building Code (IBC).
