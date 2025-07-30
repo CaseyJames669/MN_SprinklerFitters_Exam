@@ -31,7 +31,7 @@ The project revolves around taking a raw JSON dataset and processing it through 
 
 ✨ **Explore the dataset interactively as a mind map, hosted on GitHub Pages:**
 
-**[Launch Interactive Mind Map](http://CaseyJames669.github.io/MN_SprinklerFitters_Exam/docs/)**
+**[Launch Interactive Mind Map](http://CaseyJames669.github.io/MN_SprinklerFitters_Exam/)**
 
 ### File Descriptions
 
