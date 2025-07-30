@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire Protection Standards Mind Map</title>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/jsmind/js/jsmind.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/jsmind@0.6.2/style/jsmind.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsmind@0.8.7/es6/jsmind.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsmind@0.8.7/style/jsmind.css">
     <style>
         body { margin: 0; }
         #mindmap-container { width: 100vw; height: 100vh; }
     </style>
 </head>
 <body>
+    <audio controls style="width: 100%; padding: 10px 0;">
+        <source src="../grok4.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
     <div id="mindmap-container"></div>
     <script>
         fetch('mindmap_data.json')
@@ -33,7 +37,7 @@
             })
             .catch(error => {
                 console.error('Error loading mind map data:', error);
-                document.body.innerHTML = '<p>Error loading mind map. Check console for details or ensure mindmap_data.json exists.</p>';
+                document.body.innerHTML = '<p>Error loading mind map. Check console for details or ensure mindmap_data.json is valid.</p>';
             });
     </script>
 </body>
