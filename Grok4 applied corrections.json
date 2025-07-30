@@ -413,7 +413,8 @@
     "verified": true,
     "id": 37,
     "tags": [
-      "NFPA 13"
+      "NFPA 13",
+      "NFPA 13R"
     ],
     "source": "NFPA 13R 2022 Edition, Section 6.6.4"
   },
@@ -1293,7 +1294,8 @@
     "verified": true,
     "id": 117,
     "tags": [
-      "General"
+      "General",
+      "NFPA 22"
     ],
     "source": "NFPA 22 2023 Edition, Section 5.3.1"
   },

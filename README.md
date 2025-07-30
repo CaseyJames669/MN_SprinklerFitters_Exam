@@ -27,13 +27,11 @@ A comprehensive, scripted dataset of questions and answers for studying fire pro
 
 The project revolves around taking a raw JSON dataset and processing it through a series of scripts to produce clean, enhanced, and usable study guides. This workflow is visualized below:
 
-![Project Data Flow](NotebookLM%20Mind%20Map.png)
-
 ### Interactive Mind Map
 
-Explore the dataset interactively as a mind map, hosted on GitHub Pages:
+✨ **Explore the dataset interactively as a mind map, hosted on GitHub Pages:**
 
-[Launch Interactive Mind Map](https://<YOUR_USERNAME>.github.io/<YOUR_REPOSITORY_NAME>/docs/)
+**[Launch Interactive Mind Map](https://CaseyJames669.github.io/MN_SprinklerFitters_Exam/docs/)**
 
 ### File Descriptions
 
@@ -42,9 +40,10 @@ Explore the dataset interactively as a mind map, hosted on GitHub Pages:
 - **`Quizlet Full - Original.json`**: The raw, unprocessed data. Contains potential duplicates and formatting inconsistencies.
 - **`Quizlet Full - Original.txt`**: The raw, unprocessed data in plain text format.
 - **`Quizlet Full - Verified.json`**: The cleaned version of the data, with duplicates removed.
-- **`Quizlet Full - Enhanced.json`**: The most advanced dataset. Includes a unique `id`, standardized `source`, granular `tags`, and structured `answer` fields.
+- **`Quizlet Full - Enhanced.json`**: An enhanced dataset. Includes a unique `id`, standardized `source`, granular `tags`, and structured `answer` fields.
+- **`Grok4 applied corrections.json`**: The most advanced dataset, containing all corrections and enhancements.
 - **`Grok4 accuracy verification results.json`**: The dataset used for Grok 4 AI agent verification, containing original data and correction suggestions.
-- **`Grok4 applied corrections.json`**: The final, corrected dataset after applying Grok 4 AI agent verification results.
+- ✨ **`Grok4 applied corrections.json`**: **The final, corrected dataset after applying Grok 4 AI agent verification results.** ✨
 - **`Quizlet Full - FormattedForImport.txt`**: A text version of the data, formatted for direct import into Quizlet.
 - **`Quizlet Full - NotebookLM.txt`**: A plain text version of the enhanced data, specifically formatted for use as a source in Google's NotebookLM.
 
@@ -58,8 +57,6 @@ Explore the dataset interactively as a mind map, hosted on GitHub Pages:
 #### 📄 Documentation
 
 - **`JSON Analysis.md`**: A detailed report on the structure, integrity, and quality of the JSON data, including suggestions for improvement.
-- **`NotebookLM Mind Map.pdf` / `.png`**: Visual diagram of the project's file structure and data flow.
-- **`NotebookLM Audio Overview.wav`**: An audio recording providing an overview of the project's integration with Google's NotebookLM.
 
 ---
 
@@ -85,25 +82,29 @@ This single command will handle all the processing steps, including deduplicatio
 
 The study material is primarily sourced from the following standards:
 
-- NFPA 13, 2025 Edition
-- NFPA 13D, 2022 Edition
-- NFPA 13R, 2022 Edition
-- NFPA 14, 2022 Edition
-- NFPA 17A, 2024 Edition
-- NFPA 20, 2022 Edition
-- NFPA 22, 2023 Edition
-- NFPA 24, 2022 Edition
-- NFPA 25, 2023 Edition
-- NFPA 72, 2024 Edition
-- NFPA 96, 2024 Edition
-- Minnesota State Fire Code, 2020
+- General
+- Minnesota State Fire Code 2020
 - MN Statutes
+- NFPA 13
+- NFPA 13 2025 Edition
+- NFPA 13D 2022 Edition
+- NFPA 13R 2022 Edition
+- NFPA 14
+- NFPA 14 2022 Edition
+- NFPA 17A 2024 Edition
+- NFPA 20
+- NFPA 22 2023 Edition
+- NFPA 24 2022 Edition
+- NFPA 25
+- NFPA 25 2023 Edition
+- NFPA 72 2024 Edition
+- NFPA 96 2024 Edition
 
 ---
 
 ## Future Improvements
 
-
+- **Update NotebookLM and Quizlet listings**: Ensure these platforms are using the latest `Grok4 applied corrections.json` dataset.
 - **Web Interface for Data Exploration**: Create a simple web application to browse, search, and filter the Q&A dataset.
 - **Automated Data Validation and Cleaning**: Implement a more robust data validation pipeline to automatically detect and flag inconsistencies.
 - **Expand the Dataset with More Sources**: Incorporate additional fire protection standards, such as those from the International Building Code (IBC).
