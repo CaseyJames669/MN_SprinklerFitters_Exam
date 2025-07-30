@@ -7,6 +7,7 @@ A comprehensive, scripted dataset of questions and answers for studying fire pro
 ## AI-Enhanced Version (July 29, 2025)
 
 - Used Grok 4 AI agent for 100% accuracy verification against NFPA 2025 and MN Fire Code.
+- **Grok4 applied corrections.json** is now the final, corrected dataset.
 - New features: PDF study guide, web quiz app, expanded Q&A.
 - Run `python agent.py` to regenerate.
 
@@ -28,6 +29,12 @@ The project revolves around taking a raw JSON dataset and processing it through 
 
 ![Project Data Flow](NotebookLM%20Mind%20Map.png)
 
+### Interactive Mind Map
+
+Explore the dataset interactively as a mind map, hosted on GitHub Pages:
+
+[Launch Interactive Mind Map](https://<YOUR_USERNAME>.github.io/<YOUR_REPOSITORY_NAME>/docs/)
+
 ### File Descriptions
 
 #### 🗂️ Data Files
@@ -36,6 +43,8 @@ The project revolves around taking a raw JSON dataset and processing it through 
 - **`Quizlet Full - Original.txt`**: The raw, unprocessed data in plain text format.
 - **`Quizlet Full - Verified.json`**: The cleaned version of the data, with duplicates removed.
 - **`Quizlet Full - Enhanced.json`**: The most advanced dataset. Includes a unique `id`, standardized `source`, granular `tags`, and structured `answer` fields.
+- **`Grok4 accuracy verification results.json`**: The dataset used for Grok 4 AI agent verification, containing original data and correction suggestions.
+- **`Grok4 applied corrections.json`**: The final, corrected dataset after applying Grok 4 AI agent verification results.
 - **`Quizlet Full - FormattedForImport.txt`**: A text version of the data, formatted for direct import into Quizlet.
 - **`Quizlet Full - NotebookLM.txt`**: A plain text version of the enhanced data, specifically formatted for use as a source in Google's NotebookLM.
 
@@ -93,6 +102,7 @@ The study material is primarily sourced from the following standards:
 ---
 
 ## Future Improvements
+
 
 - **Web Interface for Data Exploration**: Create a simple web application to browse, search, and filter the Q&A dataset.
 - **Automated Data Validation and Cleaning**: Implement a more robust data validation pipeline to automatically detect and flag inconsistencies.
