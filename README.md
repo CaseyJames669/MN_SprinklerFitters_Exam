@@ -28,21 +28,25 @@ Other important files in the root directory:
 The project's workflow takes raw data, processes it through a series of Python scripts, and generates clean, usable study guides and applications.
 
 **1. Raw Data:**
+
 - The process starts with the raw data located in `/data/raw/`, primarily `Quizlet Full - Original.json`.
 
 **2. Processing Pipeline:**
+
 - The scripts in the `/scripts/` directory are used to process the raw data. Key scripts include:
-    - `format_quizlet.py`: Formats the data for Quizlet.
+  - `format_quizlet.py`: Formats the data for Quizlet.
     - `fix_json.py`, `repair_json.py`, `validate_data.py`: Clean and validate the JSON data.
     - `enhance_json.py`, `extract_tags.py`, `extract_sources.py`: Enrich the data with metadata.
     - `convert_to_notebooklm.py`: Prepares the data for NotebookLM.
     - `generate_mindmap_data.py`: Creates the data for the mind map visualization.
 
 **3. Processed Data & Outputs:**
+
 - The processed and enhanced data is stored in `/data/processed/`. The final, canonical dataset is `Grok4 applied corrections.json`.
 - Generated files for specific applications are placed in `/output/`.
 
 **4. Applications:**
+
 - **Web App:** The Flask application in `/src/web_app/` serves the processed data as an interactive quiz.
 - **Mind Map:** The files in `/visualization/` create an interactive mind map of the study material.
 
