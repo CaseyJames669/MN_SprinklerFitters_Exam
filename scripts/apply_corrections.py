@@ -1,7 +1,14 @@
 import json
+import os
 
-input_file_path = "H:\\Google Drive\\MN_SprinklerFitters_Exam\\Grok4 accuracy verification results.json"
-output_file_path = "H:\\Google Drive\\MN_SprinklerFitters_Exam\\Grok4 applied corrections.json"
+# Get the script's directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Go up one level to the project root
+project_root = os.path.dirname(script_dir)
+
+# Define relative paths for input and output
+input_file_path = os.path.join(project_root, 'data', 'processed', 'Grok4 accuracy verification results.json')
+output_file_path = os.path.join(project_root, 'data', 'processed', 'Grok4 applied corrections.json')
 
 try:
     with open(input_file_path, 'r', encoding='utf-8') as f:

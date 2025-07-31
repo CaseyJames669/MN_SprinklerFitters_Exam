@@ -1,7 +1,14 @@
 import json
+import os
 
-input_file = r"C:\Users\casey\Github\MN_SprinklerFitters_Exam\Quizlet Full - Verified.json"
-output_file = r"C:\Users\casey\Github\MN_SprinklerFitters_Exam\Quizlet Full - FormattedForImport.txt"
+# Get the script's directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Go up one level to the project root
+project_root = os.path.dirname(script_dir)
+
+# Define relative paths for input and output
+input_file = os.path.join(project_root, 'data', 'processed', 'Grok4 applied corrections.json')
+output_file = os.path.join(project_root, 'output', 'Quizlet Full - CorrectedImport.txt')
 term_definition_separator = "****"
 card_separator = "\n\n"
 
