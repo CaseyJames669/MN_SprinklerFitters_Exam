@@ -1,62 +1,50 @@
-# Fire Protection Standards Study Guide
+# MN Sprinkler Fitters Exam Study Guide
 
-A comprehensive, scripted dataset of questions and answers for studying fire protection standards, primarily sourced from NFPA codes. This project cleans, enhances, and formats study materials for various applications like Quizlet and Google's NotebookLM.
-
----
-
-## AI-Enhanced Version (July 29, 2025)
-
-- Used Grok 4 AI agent for 100% accuracy verification against NFPA 2025 and MN Fire Code.
-- **Grok4 applied corrections.json** is now the final, corrected dataset.
-- New features: PDF study guide, web quiz app, expanded Q&A.
-- Run `python agent.py` to regenerate.
-
-## Key Features
-
-- **Comprehensive Dataset**: A large collection of Q&A pairs covering critical fire protection topics.
-- **Standardized Sources**: Each entry is linked to a specific code section, with sources formatted as `Authority: [Name], Document: [Title], Section: [Number]`.
-- **Automated Processing**: Python scripts to clean, verify, and enhance the dataset for consistency and accuracy.
-- **Multiple Formats**: Data is available in raw, cleaned, and enhanced JSON, plus text formats optimized for different study platforms.
-- **Unique IDs**: Every Q&A pair has a unique `id` for easy referencing.
-- **Granular Tagging**: A hierarchical tagging system (e.g., `Piping-Materials`, `System-Components`) allows for more precise content filtering.
-- **Structured Answers**: Complex answers with lists or key-value pairs are automatically converted into structured JSON objects for easier programmatic access.
+A comprehensive, scripted dataset of questions and answers for studying for the Minnesota Sprinkler Fitters Exam. This project sources material from NFPA standards and Minnesota state codes, then cleans, processes, and formats it for various study applications, including a web-based quiz app and an interactive mind map.
 
 ---
 
-## Project Structure and Data Flow
+## Project Structure
 
-The project revolves around taking a raw JSON dataset and processing it through a series of scripts to produce clean, enhanced, and usable study guides. This workflow is visualized below:
+The repository is organized into the following directories:
 
-### Interactive Mind Map
+- **`/src/`**: Contains the source code for the web application.
+- **`/scripts/`**: Houses all Python scripts used for the data processing pipeline.
+- **`/data/`**: Contains the JSON data files, separated into `raw/` and `processed/` subdirectories.
+- **`/reference/`**: Stores the raw source material, including `nfpa/` and `minnesota/` codes and standards.
+- **`/output/`**: Holds the generated output files, such as formatted text for Quizlet or data for the mind map.
+- **`/visualization/`**: Contains the HTML, CSS, and JavaScript for the interactive mind map.
+- **`/docs/`**: Includes project documentation.
+- **`/archive/`**: Stores archived files, such as saved web pages, that are not part of the main data flow but are preserved for reference.
 
-✨ **Explore the dataset interactively as a mind map, hosted on GitHub Pages:**
+Other important files in the root directory:
 
-**[Launch Interactive Mind Map](http://CaseyJames669.github.io/MN_SprinklerFitters_Exam/)**
+- **`JSON Analysis.md`**: A detailed report on the structure, integrity, and quality of the JSON data.
 
-### File Descriptions
+---
 
-#### 🗂️ Data Files
+## Data Flow & Usage
 
-- **`Quizlet Full - Original.json`**: The raw, unprocessed data. Contains potential duplicates and formatting inconsistencies.
-- **`Quizlet Full - Original.txt`**: The raw, unprocessed data in plain text format.
-- **`Quizlet Full - Verified.json`**: The cleaned version of the data, with duplicates removed.
-- **`Quizlet Full - Enhanced.json`**: An enhanced dataset. Includes a unique `id`, standardized `source`, granular `tags`, and structured `answer` fields.
-- **`Grok4 applied corrections.json`**: The most advanced dataset, containing all corrections and enhancements.
-- **`Grok4 accuracy verification results.json`**: The dataset used for Grok 4 AI agent verification, containing original data and correction suggestions.
-- ✨ **`Grok4 applied corrections.json`**: **The final, corrected dataset after applying Grok 4 AI agent verification results.** ✨
-- **`Quizlet Full - FormattedForImport.txt`**: A text version of the data, formatted for direct import into Quizlet.
-- **`Quizlet Full - NotebookLM.txt`**: A plain text version of the enhanced data, specifically formatted for use as a source in Google's NotebookLM.
+The project's workflow takes raw data, processes it through a series of Python scripts, and generates clean, usable study guides and applications.
 
-#### ⚙️ Python Scripts
+**1. Raw Data:**
+- The process starts with the raw data located in `/data/raw/`, primarily `Quizlet Full - Original.json`.
 
-- **`process_json.py`**: Reads `Quizlet Full - Original.json`, removes duplicate questions, and saves the result as `Quizlet Full - Verified.json`.
-- **`enhance_json.py`**: Takes the verified data, adds detailed `tags` and `source` fields to each entry, and applies Markdown formatting. Saves the result as `Quizlet Full - Enhanced.json`.
-- **`convert_to_notebooklm.py`**: Converts the final enhanced JSON into the `Quizlet Full - NotebookLM.txt` format.
-- **`format_quizlet.py`**: Formats the verified JSON data into a tab-separated text file (`Quizlet Full - FormattedForImport.txt`) suitable for Quizlet import.
+**2. Processing Pipeline:**
+- The scripts in the `/scripts/` directory are used to process the raw data. Key scripts include:
+    - `format_quizlet.py`: Formats the data for Quizlet.
+    - `fix_json.py`, `repair_json.py`, `validate_data.py`: Clean and validate the JSON data.
+    - `enhance_json.py`, `extract_tags.py`, `extract_sources.py`: Enrich the data with metadata.
+    - `convert_to_notebooklm.py`: Prepares the data for NotebookLM.
+    - `generate_mindmap_data.py`: Creates the data for the mind map visualization.
 
-#### 📄 Documentation
+**3. Processed Data & Outputs:**
+- The processed and enhanced data is stored in `/data/processed/`. The final, canonical dataset is `Grok4 applied corrections.json`.
+- Generated files for specific applications are placed in `/output/`.
 
-- **`JSON Analysis.md`**: A detailed report on the structure, integrity, and quality of the JSON data, including suggestions for improvement.
+**4. Applications:**
+- **Web App:** The Flask application in `/src/web_app/` serves the processed data as an interactive quiz.
+- **Mind Map:** The files in `/visualization/` create an interactive mind map of the study material.
 
 ---
 
@@ -65,48 +53,24 @@ The project revolves around taking a raw JSON dataset and processing it through 
 ### Prerequisites
 
 - Python 3.x
+- Required Python packages (see `requirements.txt`)
 
 ### Usage
 
-To regenerate all processed files from the original data, simply run the `agent.py` script:
+To run the web application:
 
 ```bash
-python agent.py
+python src/web_app/app.py
 ```
 
-This single command will handle all the processing steps, including deduplication, verification (if an API key is provided), enhancement, and generation of all output files.
+To regenerate the processed data, run the relevant scripts from the `/scripts/` directory.
 
 ---
 
-## Data Sources
+## Interactive Mind Map
 
-The study material is primarily sourced from the following standards:
+✨ **Explore the dataset interactively as a mind map, hosted on GitHub Pages:**
 
-- General
-- Minnesota State Fire Code 2020
-- MN Statutes
-- NFPA 13
-- NFPA 13 2025 Edition
-- NFPA 13D 2022 Edition
-- NFPA 13R 2022 Edition
-- NFPA 14
-- NFPA 14 2022 Edition
-- NFPA 17A 2024 Edition
-- NFPA 20
-- NFPA 22 2023 Edition
-- NFPA 24 2022 Edition
-- NFPA 25
-- NFPA 25 2023 Edition
-- NFPA 72 2024 Edition
-- NFPA 96 2024 Edition
+**[Launch Interactive Mind Map](http.caseyjames669.github.io/MN_SprinklerFitters_Exam/visualization/)**
 
 ---
-
-## Future Improvements
-
-- **Update Quizlet listings**: Ensure these platforms are using the latest `Grok4 applied corrections.json` dataset.
-- **Web Interface for Data Exploration**: Create a simple web application to browse, search, and filter the Q&A dataset.
-- **Automated Data Validation and Cleaning**: Implement a more robust data validation pipeline to automatically detect and flag inconsistencies.
-- **Expand the Dataset with More Sources**: Incorporate additional fire protection standards, such as those from the International Building Code (IBC).
-- **Advanced Data Analysis and Insights**: Develop scripts to analyze the dataset for trends and insights.
-- **Interactive Quiz Feature**: Build a command-line or web-based quiz tool that pulls questions from the dataset and tests the user's knowledge.
