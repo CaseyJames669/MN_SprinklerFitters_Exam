@@ -1,7 +1,2 @@
-PyPDF2
-python-dotenv
-pandas
-markdown
-requests
-reportlab
-flask
+flake8
+pytest

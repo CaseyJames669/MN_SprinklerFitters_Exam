@@ -1,0 +1,5 @@
+docs: Revert hideous table and link to separate file
+
+- Reverted the README.md to its previous state, removing the unreadable embedded table.
+- Restored the `fire-sprinkler-code-references.md` file.
+- Added a link from the README.md to the restored references file for better readability.
