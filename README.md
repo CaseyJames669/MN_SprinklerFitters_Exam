@@ -27,22 +27,22 @@ Other important files in the root directory:
 
 The project's workflow takes raw data, processes it through a series of Python scripts, and generates clean, usable study guides and applications.
 
-**1. Source Materials & Raw Data**
+### 1. Source Materials & Raw Data
 - The process begins with the source documents in `/reference/` and the initial dataset in `/data/raw/`.
 
-**2. Initial Processing**
+### 2. Initial Processing
 - The scripts in `/scripts/` are used to clean, validate, and enhance the raw data, resulting in `Quizlet Full - Enhanced.json`.
 
-**3. AI-Powered Verification**
+### 3. AI-Powered Verification
 - The `Quizlet Full - Enhanced.json` file is manually processed using the Grok4 AI model to generate `Grok4 accuracy verification results.json`. This file contains the original data along with AI-suggested corrections.
 
-**4. Applying Corrections**
+### 4. Applying Corrections
 - The `scripts/apply_corrections.py` script takes the verification file and programmatically applies the corrections to create the final, canonical dataset: `Grok4 applied corrections.json`.
 
-**5. Generating Outputs**
+### 5. Generating Outputs
 - Other scripts in the `/scripts/` directory use the final, corrected data to generate various outputs, such as the Quizlet import file (`output/Quizlet Full - CorrectedImport.txt`) and the data for the mind map.
 
-**6. Applications**
+### 6. Applications
 - **Web App:** The Flask application in `/src/web_app/` serves the processed data as an interactive quiz.
 - **Mind Map:** The files in `/visualization/` create an interactive mind map of the study material.
 
